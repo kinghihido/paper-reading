@@ -1,21 +1,21 @@
 /* ============================================================
-   集大成者 · 个人档案总台
-   纸色为底，宋体为骨，发丝线分格。全部页面共用。
+   学海无涯 · 文献精读
+   苍蓝为调，纸色为底，宋体为骨，发丝线分格。
    ============================================================ */
 
 :root {
-  --paper: #edeEE9;
-  --paper-2: #e3e5de;
-  --panel: #f4f5ef;
-  --ink: #14181a;
-  --ink-1: #1c2124;
-  --ink-2: #454c4e;
-  --ink-3: #5e6563;
-  --bg-warm: #faf9f6;
-  --rule: #c6c9c0;
-  --rule-soft: #d8dad2;
-  --accent: #24544a;
-  --accent-deep: #1b443c;
+  --paper: #ebeef0;
+  --paper-2: #e2e6e8;
+  --panel: #f3f6f7;
+  --ink: #131a1e;
+  --ink-1: #1b2226;
+  --ink-2: #41494e;
+  --ink-3: #5b6367;
+  --bg-warm: #f8fafb;
+  --rule: #c2c8cc;
+  --rule-soft: #d5dade;
+  --accent: #2f5d7c;
+  --accent-deep: #21485f;
   --seal: #8e3a27;
 
   --serif: "Songti SC", "STSong", "Noto Serif SC", "SimSun", "Times New Roman", serif;
@@ -631,7 +631,7 @@ textarea {
   padding: 9px 18px;
   min-height: 40px;
   background: var(--accent);
-  color: #f4f5ef;
+  color: var(--panel);
   border: 1px solid var(--accent);
   border-radius: 0;
   cursor: pointer;
@@ -748,7 +748,7 @@ textarea {
   cursor: pointer;
 }
 .chip:hover { border-color: var(--ink-2); }
-.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #f4f5ef; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--panel); }
 
 /* 习惯表 */
 .table-wrap { overflow-x: auto; }
@@ -1248,7 +1248,7 @@ textarea {
 .section { margin-bottom: 32px; }
 .section h2 { font-family: var(--serif); font-size: 18px; font-weight: 600; color: var(--ink-1); margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid var(--rule-soft); }
 .section p { font-size: 15px; line-height: 1.85; color: var(--ink-2); }
-.section blockquote { margin: 12px 0; padding: 12px 16px; background: var(--bg-warm, #faf9f6); border-left: 3px solid var(--accent, #24544a); font-size: 14px; line-height: 1.7; color: var(--ink-2); font-style: italic; }
+.section blockquote { margin: 12px 0; padding: 12px 16px; background: var(--bg-warm, #faf9f6); border-left: 3px solid var(--accent, #2f5d7c); font-size: 14px; line-height: 1.7; color: var(--ink-2); font-style: italic; }
 .section blockquote .cite { display: block; margin-top: 6px; font-size: 12px; color: var(--ink-3); font-style: normal; }
 .vocab-table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 14px; }
 .vocab-table th { text-align: left; padding: 8px 10px; border-bottom: 2px solid var(--rule-soft); font-weight: 600; color: var(--ink-1); font-size: 13px; }
