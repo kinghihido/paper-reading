@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>阅读报告 · 学海无涯</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2324544a'/%3E%3Crect x='8' y='8' width='16' height='16' fill='none' stroke='%23edeEE9' stroke-width='2'/%3E%3Cpath d='M16 8v16' stroke='%23edeEE9' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="topbar">
+  <a class="brand" href="index.html">学海无涯</a>
+  <ul class="nav">
+    <li><a href="index.html">文献</a></li>
+    <li><a href="index.html#vocab">词汇</a></li>
+    <li><a href="https://kinghihido.github.io/jidacheng/" target="_blank" rel="noopener">集大成者 &#8599;</a></li>
+  </ul>
+  <span class="topbar-clock" id="navClock">--:--</span>
+</nav>
+
+<main class="page">
+  <div class="report-page" id="reportContent">
+    <p class="hint" style="text-align:center;padding:60px 0">加载中……</p>
+  </div>
+</main>
+
+<footer class="foot">
+  <p>静态站点 · GitHub Pages · 内容只保存在本机浏览器</p>
+  <p>学海无涯 · kinghihido · 2026</p>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  var KEYS = { index: "lit.index", vocab: "lit.vocab" };
+  var LEGACY = { papers: "jdc.papers" };
+
+  function pad(n) { return n < 10 ? "0" + n : String(n); }
+  function esc(s) { var d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+  function load(key, fb) { try { var v = JSON.parse(localStorage.getItem(key) || "null"); return v === null ? fb : v; } catch (e) { return fb; } }
+  function getTag(p) { var id = p.id || ""; return id.indexOf("raman") === 0 ? "Raman" : (id.indexOf("tmd") === 0 ? "TMD" : ""); }
+  function findPaper(list, id) {
+    for (var i = 0; i < list.length; i++) { if (list[i].id === id) return list[i]; }
+    return null;
+  }
+  function hasBody(p) {
+    return !!(p.summary || p.principles || p.lessons || p.theory ||
+              (p.quotes && p.quotes.length) || (p.vocabGeneral && p.vocabGeneral.length));
+  }
+
+  function renderReport(paper) {
+    var tag = getTag(paper);
+    var html = '';
+    html += '<a class="back-link" href="index.html">&larr; 返回文献列表</a>';
+    html += '<h1 class="paper-title">' + esc(paper.title || "无题") + '</h1>';
+    html += '<div class="paper-meta">' + esc(paper.meta || "") + '</div>';
+
+    html += '<div class="paper-tags"><span class="status-tag">' + esc(tag || "未分类") + '</span>';
+    html += '<span class="status-tag done">' + esc(paper.status || "已读") + '</span></div>';
+
+    if (paper.summary) html += '<div class="section"><h2>概述</h2><p>' + esc(paper.summary) + '</p></div>';
+
+    if (paper.quotes && paper.quotes.length) {
+      html += '<div class="section"><h2>原文引用</h2>';
+      paper.quotes.forEach(function (q) {
+        html += '<blockquote>' + esc(q.text || "");
+        if (q.context) html += '<span class="cite">—— ' + esc(q.context) + '</span>';
+        html += '</blockquote>';
+      });
+      html += '</div>';
+    }
+
+    if (paper.principles) html += '<div class="section"><h2>原理总结</h2><p>' + esc(paper.principles) + '</p></div>';
+    if (paper.lessons) html += '<div class="section"><h2>可借鉴之处</h2><p>' + esc(paper.lessons) + '</p></div>';
+    if (paper.theory) html += '<div class="section"><h2>相关理论知识</h2><p>' + esc(paper.theory) + '</p></div>';
+
+    var allVocab = [].concat(paper.vocabGeneral || [], paper.vocabDomain || []);
+    if (allVocab.length) {
+      html += '<div class="section"><h2>词汇表</h2>';
+      html += '<table class="vocab-table"><thead><tr><th>术语</th><th>English</th><th>释义</th></tr></thead><tbody>';
+      allVocab.forEach(function (v) {
+        html += '<tr><td class="vocab-term">' + esc(v.term) + '</td><td class="vocab-en">' + esc(v.english) + '</td><td>' + esc(v.definition) + '</td></tr>';
+      });
+      html += '</tbody></table></div>';
+    }
+
+    document.getElementById("reportContent").innerHTML = html;
+    document.title = (paper.title || "阅读报告") + " · 学海无涯";
+  }
+
+  function showNotFound() {
+    document.getElementById("reportContent").innerHTML =
+      '<a class="back-link" href="index.html">&larr; 返回文献列表</a>' +
+      '<div class="section"><h2>未找到该文献</h2><p>可能链接失效，或这篇还没放进索引。</p></div>';
+  }
+
+  function showError() {
+    document.getElementById("reportContent").innerHTML =
+      '<a class="back-link" href="index.html">&larr; 返回文献列表</a>' +
+      '<div class="section"><h2>报告没加载出来</h2><p>用 file:// 直接打开会被浏览器拦住请求，起个本地服务再访问即可。</p></div>';
+  }
+
+  var params = new URLSearchParams(window.location.search);
+  var paperId = params.get("id");
+  if (!paperId) { showNotFound(); return; }
+
+  /* 1) 索引缓存里如果已经带全文（旧总台迁移过来的记录），直接用 */
+  var cached = load(KEYS.index, []);
+  if (!Array.isArray(cached)) cached = [];
+  var hit = findPaper(cached, paperId);
+  if (hit && hasBody(hit)) { renderReport(hit); return; }
+
+  /* 2) 否则按 id 取单篇，20KB 上下 */
+  fetch("reports/" + encodeURIComponent(paperId) + ".json")
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (data) {
+      if (data && data.id) { renderReport(data); return; }
+      /* 3) 最后兜底：旧总台的全量缓存里也许还留着正文 */
+      var legacy = load(LEGACY.papers, []);
+      if (Array.isArray(legacy)) {
+        var old = findPaper(legacy, paperId);
+        if (old) { renderReport(old); return; }
+      }
+      showNotFound();
+    })
+    .catch(function () { showError(); });
+
+  (function () { var d = new Date(); document.getElementById("navClock").textContent = pad(d.getHours()) + ":" + pad(d.getMinutes()); })();
+})();
+</script>
+</body>
+</html>

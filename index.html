@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>学海无涯 · 文献阅读</title>
+<meta name="description" content="材料方向文献精读报告，七个维度拆一篇论文，附通用与专业词汇积累。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2324544a'/%3E%3Crect x='8' y='8' width='16' height='16' fill='none' stroke='%23edeEE9' stroke-width='2'/%3E%3Cpath d='M16 8v16' stroke='%23edeEE9' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="topbar">
+  <a class="brand" href="index.html">学海无涯</a>
+  <ul class="nav">
+    <li><a href="index.html" aria-current="page">文献</a></li>
+    <li><a href="#vocab">词汇</a></li>
+    <li><a href="https://kinghihido.github.io/jidacheng/" target="_blank" rel="noopener">集大成者 &#8599;</a></li>
+  </ul>
+  <span class="topbar-clock" id="navClock">--:--</span>
+</nav>
+
+<main class="page">
+  <p class="crumb"><a href="https://kinghihido.github.io/jidacheng/" target="_blank" rel="noopener">集大成者</a><span>/</span><span>学海无涯</span></p>
+  <h1 class="page-title">学海无涯</h1>
+  <p class="page-desc">每篇报告按七个维度拆开：概述、原文引用、原理总结、可借鉴之处、相关理论、通用词汇、专业词汇。报告全文按需加载，不拖首屏。</p>
+
+  <div class="lit-stats" id="stats">
+    <div class="lit-stat"><span class="lit-stat-num" id="statPapers">—</span><span class="lit-stat-label">篇文献</span></div>
+    <div class="lit-stat"><span class="lit-stat-num" id="statVocab">—</span><span class="lit-stat-label">条词汇</span></div>
+    <div class="lit-stat"><span class="lit-stat-num" id="statTopics">—</span><span class="lit-stat-label">个方向</span></div>
+  </div>
+
+  <div class="lit-toolbar">
+    <div class="chips" id="filters">
+      <button class="chip" type="button" data-f="全部" aria-pressed="true">全部</button>
+      <button class="chip" type="button" data-f="Raman" aria-pressed="false">Raman</button>
+      <button class="chip" type="button" data-f="TMD" aria-pressed="false">TMD 生长</button>
+    </div>
+    <div class="lit-search">
+      <input id="search" type="search" placeholder="按题目或作者搜" aria-label="搜索文献">
+    </div>
+    <span class="hint" id="total">共 0 篇</span>
+  </div>
+
+  <div id="paperList"><p class="hint" style="text-align:center;padding:48px 0">正在取索引……</p></div>
+
+  <section class="vocab-section" id="vocab">
+    <div class="vocab-panel-head">
+      <h3>词汇积累</h3>
+      <button class="chip" type="button" id="vocabToggle" aria-expanded="false">展开</button>
+    </div>
+    <div class="vocab-panel-body" id="vocabBody" hidden>
+      <input id="vocabSearch" type="search" placeholder="搜术语、英文或释义" aria-label="搜索词汇">
+      <div id="vocabList"><p class="hint">展开后加载。</p></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>静态站点 · GitHub Pages · 索引与词汇公开，笔记改动只存本机浏览器</p>
+  <p>学海无涯 · kinghihido · 2026</p>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* 本站存储命名空间。旧站（集大成者）用的是 jdc.*，同域下做一次性迁移。 */
+  var KEYS = { index: "lit.index", vocab: "lit.vocab", migrated: "lit.migrated" };
+  var LEGACY = { papers: "jdc.papers", vocab: "jdc.vocab" };
+
+  var state = { papers: [], vocab: [], loaded: false, filter: "全部", query: "", vocabQuery: "" };
+
+  function pad(n) { return n < 10 ? "0" + n : String(n); }
+  function toast(msg) {
+    var el = document.getElementById("toast");
+    el.textContent = msg; el.classList.add("show");
+    clearTimeout(toast._t);
+    toast._t = setTimeout(function () { el.classList.remove("show"); }, 2600);
+  }
+  function store(key, val) { try { localStorage.setItem(key, JSON.stringify(val)); return true; } catch (e) { return false; } }
+  function load(key, fb) { try { var v = JSON.parse(localStorage.getItem(key) || "null"); return v === null ? fb : v; } catch (e) { return fb; } }
+  function esc(s) { var d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+  function getTag(p) { var id = p.id || ""; return id.indexOf("raman") === 0 ? "Raman" : (id.indexOf("tmd") === 0 ? "TMD" : ""); }
+
+  /* 把旧站的全量数据降级成本站索引（只留元信息），顺带救回词汇 */
+  function migrateFromLegacy() {
+    if (load(KEYS.migrated, false)) return;
+    var old = load(LEGACY.papers, null);
+    if (Array.isArray(old) && old.length) {
+      store(KEYS.index, old.map(function (p) {
+        return {
+          id: p.id, title: p.title, meta: p.meta, status: p.status,
+          createdAt: p.createdAt, updatedAt: p.updatedAt,
+          summary: (p.summary || "").slice(0, 180)
+        };
+      }));
+      /* 旧站的完整正文仍留在原键里，详情页回退时可以读到 */
+      toast("已从集大成者接管 " + old.length + " 篇记录");
+    }
+    var oldVocab = load(LEGACY.vocab, null);
+    if (Array.isArray(oldVocab) && oldVocab.length && !load(KEYS.vocab, null)) {
+      store(KEYS.vocab, oldVocab);
+    }
+    store(KEYS.migrated, true);
+  }
+
+  function renderStats() {
+    document.getElementById("statPapers").textContent = String(state.papers.length || "0");
+    document.getElementById("statVocab").textContent = String(state.vocab.length || "—");
+    var topics = {};
+    state.papers.forEach(function (p) { var t = getTag(p); if (t) topics[t] = 1; });
+    document.getElementById("statTopics").textContent = String(Object.keys(topics).length || "—");
+  }
+
+  function render() {
+    var listEl = document.getElementById("paperList");
+    var filtered = state.papers.filter(function (p) {
+      var tag = getTag(p);
+      var okTag = state.filter === "全部" || tag === state.filter;
+      var q = state.query.toLowerCase();
+      var okQ = !q || (p.title || "").toLowerCase().indexOf(q) > -1 || (p.meta || "").toLowerCase().indexOf(q) > -1;
+      return okTag && okQ;
+    }).sort(function (a, b) { return (b.createdAt || 0) - (a.createdAt || 0); });
+
+    document.getElementById("total").textContent = "共 " + state.papers.length + " 篇";
+    listEl.textContent = "";
+
+    if (!state.loaded) {
+      listEl.innerHTML = '<p class="hint" style="text-align:center;padding:48px 0">正在取索引……</p>';
+      return;
+    }
+    if (!filtered.length) {
+      listEl.innerHTML = '<div class="empty"><strong>没有符合条件的</strong><p>换个关键词试试。</p></div>';
+      return;
+    }
+
+    filtered.forEach(function (paper) {
+      var a = document.createElement("a");
+      a.href = "report.html?id=" + encodeURIComponent(paper.id);
+      a.className = "report-block lit-item";
+
+      var tag = getTag(paper);
+      var preview = (paper.summary || "").replace(/\s+/g, " ").trim();
+      if (preview.length > 140) preview = preview.slice(0, 140) + "……";
+
+      a.innerHTML =
+        '<div class="lit-item-head">' +
+          '<div class="lit-item-main">' +
+            '<h3 class="report-title">' + esc(paper.title || "无题") + '</h3>' +
+            '<div class="report-meta">' + esc(paper.meta || "") + '</div>' +
+            (preview ? '<p class="lit-preview">' + esc(preview) + '</p>' : '') +
+          '</div>' +
+          '<div class="lit-item-side">' +
+            (tag ? '<span class="status-tag">' + esc(tag) + '</span>' : '') +
+            '<span class="lit-item-go">查看报告 &rarr;</span>' +
+          '</div>' +
+        '</div>';
+      listEl.appendChild(a);
+    });
+  }
+
+  function renderVocab() {
+    var listEl = document.getElementById("vocabList");
+    listEl.textContent = "";
+    if (!state.vocab.length) { listEl.innerHTML = '<p class="hint">还没有词汇记录。</p>'; return; }
+    var q = state.vocabQuery.toLowerCase();
+    var filtered = state.vocab.filter(function (v) {
+      if (!q) return true;
+      return (v.term || "").toLowerCase().indexOf(q) > -1 ||
+             (v.english || "").toLowerCase().indexOf(q) > -1 ||
+             (v.definition || "").toLowerCase().indexOf(q) > -1;
+    });
+    if (!filtered.length) { listEl.innerHTML = '<p class="hint">没有找到匹配的词汇</p>'; return; }
+    var table = document.createElement("table");
+    table.className = "vocab-table";
+    table.innerHTML = "<thead><tr><th>术语</th><th>English</th><th>释义</th><th>分类</th></tr></thead>";
+    var tbody = document.createElement("tbody");
+    filtered.forEach(function (v) {
+      var tr = document.createElement("tr");
+      tr.innerHTML = '<td class="vocab-term">' + esc(v.term) + '</td><td class="vocab-en">' + esc(v.english) + '</td><td>' + esc(v.definition) + '</td><td><span class="status-tag">' + esc(v.category || "") + '</span></td>';
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    listEl.appendChild(table);
+  }
+
+  /* 词汇按需加载：只有展开面板才取 vocab.json */
+  function ensureVocab() {
+    if (state.vocab.length) { renderVocab(); return; }
+    var cached = load(KEYS.vocab, null);
+    if (Array.isArray(cached) && cached.length) {
+      state.vocab = cached; renderVocab(); renderStats(); return;
+    }
+    document.getElementById("vocabList").innerHTML = '<p class="hint">正在取词汇表……</p>';
+    fetch("vocab.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (data) {
+      if (Array.isArray(data) && data.length) {
+        state.vocab = data; store(KEYS.vocab, data);
+        renderVocab(); renderStats();
+      } else {
+        document.getElementById("vocabList").innerHTML = '<p class="hint">没有可用的词汇表。</p>';
+      }
+    }).catch(function () {
+      document.getElementById("vocabList").innerHTML = '<p class="hint">词汇表取不到，用 file:// 打开会被浏览器拦住，请起个本地服务。</p>';
+    });
+  }
+
+  document.getElementById("filters").addEventListener("click", function (e) {
+    var btn = e.target.closest(".chip"); if (!btn) return;
+    state.filter = btn.getAttribute("data-f");
+    Array.prototype.forEach.call(this.querySelectorAll(".chip"), function (c) { c.setAttribute("aria-pressed", String(c === btn)); });
+    render();
+  });
+  document.getElementById("search").addEventListener("input", function () { state.query = this.value; render(); });
+  document.getElementById("vocabSearch").addEventListener("input", function () { state.vocabQuery = this.value; renderVocab(); });
+
+  document.getElementById("vocabToggle").addEventListener("click", function () {
+    var body = document.getElementById("vocabBody");
+    var open = body.hasAttribute("hidden");
+    if (open) body.removeAttribute("hidden"); else body.setAttribute("hidden", "");
+    this.setAttribute("aria-expanded", String(open));
+    this.textContent = open ? "收起" : "展开";
+    if (open) ensureVocab();
+  });
+
+  /* 带 #vocab 进来时直接展开 */
+  if (location.hash === "#vocab") {
+    document.getElementById("vocabBody").removeAttribute("hidden");
+    document.getElementById("vocabToggle").setAttribute("aria-expanded", "true");
+    document.getElementById("vocabToggle").textContent = "收起";
+  }
+
+  (function () { var d = new Date(); document.getElementById("navClock").textContent = pad(d.getHours()) + ":" + pad(d.getMinutes()); })();
+
+  migrateFromLegacy();
+  state.papers = load(KEYS.index, []);
+  if (!Array.isArray(state.papers)) state.papers = [];
+  if (state.papers.length) state.loaded = true;
+
+  renderStats();
+  render();
+
+  /* 索引只有 15KB，每次都取，保证加新文献后刷新即可同步 */
+  fetch("papers-index.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (data) {
+    if (Array.isArray(data)) {
+      state.papers = data; state.loaded = true;
+      store(KEYS.index, data);
+      render(); renderStats();
+    }
+  }).catch(function () {
+    if (!state.papers.length) {
+      document.getElementById("paperList").innerHTML =
+        '<div class="empty"><strong>索引没取到</strong><p>用 file:// 直接打开会被浏览器拦住请求，起个本地服务再访问即可。</p></div>';
+    }
+  });
+})();
+</script>
+</body>
+</html>

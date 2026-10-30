@@ -1,0 +1,200 @@
+[
+ {
+  "id": "raman-001",
+  "title": "Single isolated SWCNT: Resonant Raman spectroscopy and (n,m) structural assignment",
+  "meta": "Jorio et al. · Phys. Rev. Lett. 86, 1118–1121 · 2001",
+  "status": "已读",
+  "createdAt": 1730000000000,
+  "updatedAt": 1730000000000,
+  "summary": "这篇论文是碳纳米管拉曼光谱研究领域的一篇里程碑式工作，发表在2001年的Physical Review Letters上。文章的核心贡献是：首次证明了利用共振拉曼散射技术，可以对单根孤立单壁碳纳米管（SWNT）进行完整的手性指数(n,m)确定。这对于碳纳米管领域意义重大，因为在此之前，虽然人们已经知道碳纳米管的结构由(n,m)指数唯一确定，但还没有一种简便、"
+ },
+ {
+  "id": "raman-002",
+  "title": "Raman spectroscopy of carbon nanotubes: A comprehensive review",
+  "meta": "Dresselhaus, Dresselhaus, Saito, Jorio · Phys. Rep. 409, 47–99 · 2005",
+  "status": "已读",
+  "createdAt": 1730000001000,
+  "updatedAt": 1730000001000,
+  "summary": "这是一篇发表在Physics Reports上的长篇综述文章（47-99页，共52页），由碳纳米管研究领域的泰斗级人物M.S. Dresselhaus领衔，联合G. Dresselhaus、R. Saito和A. Jorio共同撰写。Physics Reports是物理学领域最权威的综述期刊之一，这篇文章系统、全面地总结了截至2004年碳纳米管拉曼光谱研究的"
+ },
+ {
+  "id": "raman-003",
+  "title": "Evolution of the Raman spectra of single- and few-layer graphene with increasing number of layers",
+  "meta": "Ferrari et al. · Phys. Rev. Lett. 97, 187401 · 2006",
+  "status": "已读",
+  "createdAt": 1730000002000,
+  "updatedAt": 1730000002000,
+  "summary": "这篇论文是石墨烯拉曼光谱研究的开山之作，由A.C. Ferrari等人于2006年发表在Physical Review Letters上。文章的核心贡献是：首次系统展示了单层、双层和少层石墨烯的拉曼光谱指纹特征，证明了拉曼光谱可以快速、无损、高通量地鉴别石墨烯层数。这篇论文发表于石墨烯被成功剥离仅两年之后（2004年Geim和Novoselov用胶带法首次获"
+ },
+ {
+  "id": "raman-004",
+  "title": "Raman spectrum of graphene and graphene layers",
+  "meta": "Ferrari & Basko · Nat. Nanotechnol. 8, 235–246 · 2013",
+  "status": "已读",
+  "createdAt": 1730000003000,
+  "updatedAt": 1730000003000,
+  "summary": "这篇论文是石墨烯拉曼光谱领域最权威的综述文章，由A.C. Ferrari和D.M. Basko于2013年发表在Nature Nanotechnology上。Nature Nanotechnology是纳米科学领域影响力最高的期刊之一，这篇综述全面总结了截至2013年石墨烯拉曼光谱研究的所有重要进展，并提出了一个统一的理论框架来理解石墨烯中各种拉曼过程。文章"
+ },
+ {
+  "id": "raman-005",
+  "title": "Anomalous lattice vibrations of few-layer MoS2",
+  "meta": "Lee, Yan, Brus, Heinz, Hone, Ryu · ACS Nano 4, 2695–2700 · 2010",
+  "status": "已读",
+  "createdAt": 1730000004000,
+  "updatedAt": 1730000004000,
+  "summary": "这篇论文是2010年发表在ACS Nano上的经典工作，由哥伦比亚大学的Changgu Lee等人完成。文章的核心内容是首次系统研究了单层和少层二硫化钼（MoS2）的拉曼光谱特征，并揭示了其声子振动模式中一个反常现象。\n\n简单来说，MoS2是一种层状材料，每一层由一层钼原子夹在两层硫原子之间组成（S-Mo-S三明治结构），层与层之间靠很弱的范德华力结合在一起"
+ },
+ {
+  "id": "raman-006",
+  "title": "Optical Raman signatures of single- and few-layer hBN",
+  "meta": "Gorbachev et al. · Small 7, 465–468 · 2011",
+  "status": "已读",
+  "createdAt": 1730000005000,
+  "updatedAt": 1730000005000,
+  "summary": "这篇论文是2011年发表在Small期刊上的工作，由曼彻斯特大学的Gorbachev、Novoselov、Geim等人完成——注意，这是石墨烯的\"故乡\"、诺贝尔奖得主Geim领导的团队。文章的核心任务是解决一个实际问题：如何找到并确认单层氮化硼（hBN）。\n\n氮化硼是石墨烯的\"姐妹材料\"——同样具有六方层状结构，但它是宽带隙绝缘体（带隙>5 eV），在可见光"
+ },
+ {
+  "id": "raman-007",
+  "title": "Raman phonon dispersion of hBN: experiment and theory",
+  "meta": "Cai et al. · Nanoscale 9, 3059–3067 · 2017",
+  "status": "已读",
+  "createdAt": 1730000006000,
+  "updatedAt": 1730000006000,
+  "summary": "这篇论文是2017年发表在Nanoscale上的工作，由Deakin大学的蔡琦然、李璐华等人完成。文章针对的是一个在hBN研究领域悬而未决的核心问题：原子级薄层hBN的拉曼G带（E₂g模式）到底怎么随层数变化？\n\n背景是这样的：2011年Gorbachev等人（上篇论文）报告说单层hBN的E₂g峰蓝移了2-4 cm⁻¹，双层红移1-2 cm⁻¹，这个结果被广"
+ },
+ {
+  "id": "raman-008",
+  "title": "Shear mode of multilayer graphene",
+  "meta": "Tan et al. · Nat. Mater. 11, 294–300 · 2012",
+  "status": "已读",
+  "createdAt": 1730000007000,
+  "updatedAt": 1730000007000,
+  "summary": "这篇论文是2012年发表在Nature Materials上的重要工作，由中科院半导体所的谭平华团队与剑桥大学Ferrari课题组合作完成。文章首次系统揭示了多层石墨烯的层间剪切模式（shear mode），并证明这个极低频率的拉曼峰可以直接测量层间耦合强度。\n\n先说背景。石墨烯的拉曼光谱中，最著名的峰是G峰（~1580 cm⁻¹，面内伸缩振动）和2D峰（~"
+ },
+ {
+  "id": "raman-009",
+  "title": "Shear and breathing modes of few-layer MoS2",
+  "meta": "Zhang, Han, ..., Ferrari, Tan · Phys. Rev. B 87, 115413 · 2013",
+  "status": "已读",
+  "createdAt": 1730000008000,
+  "updatedAt": 1730000008000,
+  "summary": "这篇文章是2013年发表在Physical Review B上的一篇经典论文，由中科院半导体所的谭平华课题组与剑桥大学的Andrea Ferrari课题组合作完成。文章的核心工作是利用低频拉曼散射系统研究了多层MoS2中的剪切模式（shear mode, C模式）和层呼吸模式（layer breathing mode, LBM），并建立了一个具有普适性的双原"
+ },
+ {
+  "id": "raman-010",
+  "title": "Raman signature of graphene superlattices",
+  "meta": "Carozo et al. · Nano Lett. 11, 4527–4534 · 2011",
+  "status": "已读",
+  "createdAt": 1730000009000,
+  "updatedAt": 1730000009000,
+  "summary": "这篇文章是2011年发表在Nano Letters上的一篇开创性论文，由巴西的Ado Jorio课题组完成。文章的核心贡献是建立了旋转双层石墨烯中拉曼光谱与旋转角度之间的理论模型，并通过原子力显微镜（AFM）折叠实验验证了模型的预测。\n\n通俗地说，想象你有两张完全相同的透明方格纸，把它们叠在一起。如果两张纸的格子方向完全对齐，你看到的就是一个规则的方格图案。"
+ },
+ {
+  "id": "raman-011",
+  "title": "Raman spectroscopy of rotated double-layer graphene",
+  "meta": "Kim et al. · Phys. Rev. Lett. 108, 246103 · 2012",
+  "status": "已读",
+  "createdAt": 1730000010000,
+  "updatedAt": 1730000010000,
+  "summary": "这篇文章是2012年发表在Physical Review Letters上的一篇重要论文，由UC Berkeley的赵志铜（A. Zettl）课题组完成。文章的核心工作是对旋转双层石墨烯进行了系统的拉曼光谱研究，建立了拉曼光谱特征（2D峰和G峰的位置、宽度、强度）与旋转角θ之间的完整实验关系，并通过紧束缚理论计算给出了清晰的物理解释。\n\n通俗地说，这篇文章回"
+ },
+ {
+  "id": "raman-012",
+  "title": "Low-frequency interlayer Raman modes of twisted bilayer MoS2",
+  "meta": "Huang et al. · Nano Lett. 16, 1435–1444 · 2016",
+  "status": "已读",
+  "createdAt": 1730000011000,
+  "updatedAt": 1730000011000,
+  "summary": "这篇文章是2016年发表在Nano Letters上的一篇重要论文，由MIT的Mildred Dresselhaus课题组、伦斯勒理工学院的Vincent Meunier课题组与橡树岭国家实验室合作完成。文章的核心工作是系统研究了扭转双层MoS2中低频层间拉曼模式（剪切模式和呼吸模式）随扭转角θ（从0°到60°）的演化规律，并结合密度泛函理论（DFT）计算揭"
+ },
+ {
+  "id": "raman-013",
+  "title": "Moiré phonons in twisted bilayer MoS2",
+  "meta": "Lin, Tan et al. · ACS Nano 12, 8770–8780 · 2018",
+  "status": "已读",
+  "createdAt": 1730000012000,
+  "updatedAt": 1730000012000,
+  "summary": "这篇文章是2018年发表在ACS Nano上的一篇重要论文，由中科院半导体所谭平华课题组主导完成。文章的核心工作是在CVD生长和精确转移的扭转双层MoS2（tBLM）中观测到了与莫尔声子（moiré phonons）相关的拉曼模式，并通过系统的理论分析证明了这些模式来源于莫尔超晶格对单层MoS2声子的折叠效应，而非晶体学超晶格的折叠。\n\n通俗地说，这篇文章的"
+ },
+ {
+  "id": "tmd-001",
+  "title": "Wafer-scale growth of low-defect-density WS2 by HVPD",
+  "meta": "Wan et al. · Nat. Commun. · 2022",
+  "status": "已读",
+  "createdAt": 1730000100000,
+  "updatedAt": 1730000100000,
+  "summary": "这篇文章来自沙特阿卜杜拉国王科技大学（KAUST）的Wan等人，2022年发表在Nature Communications上。简单来说，他们发现了一种新的生长方法——氢氧化物气相沉积（OHVPD），可以用来制备缺陷密度极低的WS2单层薄膜。\n\n要理解这项工作的重要性，首先要知道背景：二维半导体材料（比如WS2、MoS2等过渡金属硫族化合物，简称TMDs）被认"
+ },
+ {
+  "id": "tmd-002",
+  "title": "Buffer-layer-assisted growth of single-crystal MoS2",
+  "meta": "Li et al. · Nat. Commun. · 2024",
+  "status": "已读",
+  "createdAt": 1730000101000,
+  "updatedAt": 1730000101000,
+  "summary": "这篇文章来自中国科学院物理研究所的Li等人，2024年发表在Nature Communications上。他们实现了一个非常漂亮的结果：在工业兼容的c面蓝宝石衬底上，仅通过控制前驱体比例（S/MoO3），就生长出了2英寸的单晶MoS2单层晶圆。\n\n先说背景。要在工业上真正使用二维半导体，必须解决一个核心问题：如何在晶圆尺度上获得单晶薄膜？对于MoS2来说，c"
+ },
+ {
+  "id": "tmd-003",
+  "title": "Interfacial epitaxy of 3R TMDs",
+  "meta": "Qin et al. · Science · 2024",
+  "status": "已读",
+  "createdAt": 1730000102000,
+  "updatedAt": 1730000102000,
+  "summary": "这篇文章来自北京大学刘开辉团队联合人民大学、中科院物理所等多个单位，2024年发表在Science上。他们提出了一种全新的外延策略——'界面外延'（interfacial epitaxy），成功制备了晶圆级的3R相（菱方堆叠）TMD单晶薄膜，包括MoS2、MoSe2、WS2、WSe2、NbS2、NbSe2以及MoS2(1-x)Se2x合金。\n\n要理解这项工作"
+ },
+ {
+  "id": "tmd-004",
+  "title": "Vicinal van der Waals epitaxy of MoS2",
+  "meta": "Moon et al. · Nat. Electron. · 2025",
+  "status": "已读",
+  "createdAt": 1730000103000,
+  "updatedAt": 1730000103000,
+  "summary": "这篇文章来自韩国浦项科技大学（POSTECH）的Moon、Lee、Cho等人，2025年发表在Nature Electronics上。他们通过优化偏切衬底上的van der Waals外延工艺，首次实现了晶圆级单晶MoS2单层中的'相干输运'——即载流子在运动过程中保持量子力学相位信息，表现为弱局域化（weak localization）和量子霍尔效应的起始"
+ },
+ {
+  "id": "tmd-005",
+  "title": "La-passivated sapphire for TMD growth",
+  "meta": "Zou et al. · Science · 2025",
+  "status": "已读",
+  "createdAt": 1730000104000,
+  "updatedAt": 1730000104000,
+  "summary": "这篇文章解决了二维半导体材料工业化生产中的一个核心难题：如何在大规模衬底上生长出单晶取向一致的过渡金属硫族化合物（TMDC）薄膜。简单来说，就像要在一张巨大的桌子上整齐地摆放无数个微小的三角形积木，但这些积木总是倾向于随机或成对地摆放（即反平行畴）。作者发现，通过在蓝宝石衬底表面镀上一层镧（La）原子，可以打破表面的中心反演对称性，让所有TMDC晶畴都朝着同"
+ },
+ {
+  "id": "tmd-006",
+  "title": "Cross-step growth of MoS2 on vicinal sapphire",
+  "meta": "Zhang et al. · Sci. Adv. · 2026",
+  "status": "已读",
+  "createdAt": 1730000105000,
+  "updatedAt": 1730000105000,
+  "summary": "这篇文章发现了一个违反直觉的现象：单层MoS2在蓝宝石上生长时，能够'跨越'高达10纳米的台阶，而不是像传统薄膜生长理论预测的那样在台阶处终止。要知道，单层MoS2的厚度只有约0.65纳米，这意味着它跨越的台阶高度是其自身厚度的15倍以上。在经典薄膜外延中，高台阶会引入额外的Ehrlich-Schwoebel势垒，导致薄膜在台阶处断开，这是薄膜生长领域的常识"
+ },
+ {
+  "id": "tmd-007",
+  "title": "Oxy-MOCVD of MoS2",
+  "meta": "Liu et al. · Science · 2026",
+  "status": "已读",
+  "createdAt": 1730000106000,
+  "updatedAt": 1730000106000,
+  "summary": "这篇文章聚焦于MOCVD生长MoS2的动力学瓶颈问题，并提出了一种革命性的解决方案——氧气辅助MOCVD（oxy-MOCVD）技术。传统的MOCVD使用Mo(CO)6和H2S或CS2作为前驱体，但面临两个核心问题：(1) 钼前驱体分解后形成的Mo(CO)3与硫源反应时，速率决定步骤的能垒高达2.02 eV（H2S路线）或1.92 eV（CS2路线），导致反应"
+ },
+ {
+  "id": "tmd-008",
+  "title": "Ultralow contact resistance between semimetal and monolayer semiconductors",
+  "meta": "Shen, Su, Lin et al. · Nature 593, 211–217 · 2021",
+  "status": "已读",
+  "createdAt": 1730000107000,
+  "updatedAt": 1730000107000,
+  "summary": "这篇文章解决的是二维半导体器件中一个长期存在的核心难题：如何实现金属与单层TMDC之间的超低电阻欧姆接触。在传统的金属-半导体接触中，由于金属诱导能隙态（MIGS）的存在，费米能级会被'钉扎'在带隙中，导致不可避免的肖特基势垒。这个势垒就像一堵墙，阻碍载流子从金属注入半导体，产生高接触电阻（通常约1 kΩ·μm），严重限制了二维晶体管性能的进一步提升。以往的"
+ },
+ {
+  "id": "tmd-009",
+  "title": "Electrostatic-repulsion-based transfer of van der Waals materials",
+  "meta": "Zheng, Wang, Jiang et al. · Nature 645, 906–912 · 2025",
+  "status": "已读",
+  "createdAt": 1730000108000,
+  "updatedAt": 1730000108000,
+  "summary": "这篇文章提出了一种全新的二维材料转移技术——电双层（EDL）转移法，解决了长期以来困扰二维材料领域的'转移'难题。二维材料（如MoS2、WSe2、石墨烯等）通常在特殊的衬底上生长（如蓝宝石、SiO2/Si、铜箔等），但要将其应用于集成电路或异质结构，需要转移到目标衬底上。传统的转移方法各有缺陷：化学刻蚀法（如KOH腐蚀蓝宝石、FeCl3腐蚀铜）会引入金属离子"
+ }
+]

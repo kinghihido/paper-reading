@@ -1,0 +1,1694 @@
+[
+ {
+  "term": "共振",
+  "english": "resonance",
+  "definition": "当外部驱动频率与系统固有频率匹配时，响应幅度显著增大的现象。在拉曼光谱中，当激光能量匹配电子跃迁能量时，散射信号大幅增强。",
+  "category": "通用"
+ },
+ {
+  "term": "手性",
+  "english": "chirality",
+  "definition": "描述物体与其镜像不能重合的性质。在碳纳米管中，手性由卷曲方向决定，用(n,m)指数表示，影响纳米管是金属性还是半导体性。",
+  "category": "通用"
+ },
+ {
+  "term": "态密度",
+  "english": "density of states (DOS)",
+  "definition": "单位能量间隔内可用的电子量子态数目。一维体系的态密度在范霍夫奇点处发散，是理解光学和输运性质的基础。",
+  "category": "通用"
+ },
+ {
+  "term": "紧束缚近似",
+  "english": "tight binding approximation",
+  "definition": "一种计算固体电子结构的简化方法，假设电子主要局域在原子附近，通过相邻原子轨道的重叠（跃迁积分）来描述能带结构。",
+  "category": "通用"
+ },
+ {
+  "term": "共焦显微",
+  "english": "confocal microscopy",
+  "definition": "利用针孔光阑消除离焦光的光学显微技术，可以实现微米级空间分辨率，用于测量单根纳米管的拉曼信号。",
+  "category": "通用"
+ },
+ {
+  "term": "自洽性",
+  "english": "self-consistency",
+  "definition": "理论预测与实验观测之间相互印证、不矛盾的状态。本文通过一个锚点确定参数后，所有其他观测结果都能自洽验证。",
+  "category": "通用"
+ },
+ {
+  "term": "非破坏性表征",
+  "english": "non-destructive characterization",
+  "definition": "不改变或损坏样品的材料分析方法。拉曼光谱是典型的非破坏性技术，对碳纳米管研究尤为重要。",
+  "category": "通用"
+ },
+ {
+  "term": "径向呼吸模",
+  "english": "radial breathing mode (RBM)",
+  "definition": "碳纳米管特有的拉曼活性振动模式，所有碳原子沿径向做同相振动，频率与管径成反比（约248/d_t），是确定纳米管直径和(n,m)指数的关键。",
+  "category": "专业"
+ },
+ {
+  "term": "范霍夫奇点",
+  "english": "van Hove singularity (vHS)",
+  "definition": "一维体系电子态密度中的发散点，对应于切割线与石墨烯等能面相切的位置。相邻奇点间的能量间隔Eii决定了碳纳米管的光学跃迁和共振拉曼条件。",
+  "category": "专业"
+ },
+ {
+  "term": "Kataura图",
+  "english": "Kataura plot",
+  "definition": "将碳纳米管的电子跃迁能量Eii对管径倒数1/d_t作图的图表，是共振拉曼实验中选择激光波长和进行(n,m)指认的核心工具。",
+  "category": "专业"
+ },
+ {
+  "term": "三角畸变",
+  "english": "trigonal warping",
+  "definition": "石墨烯pi电子能带在K点附近的三角形畸变效应，导致不同手性的碳纳米管即使直径相同，其Eii也有差异，影响共振拉曼强度。",
+  "category": "专业"
+ },
+ {
+  "term": "Breit-Wigner-Fano线型",
+  "english": "Breit-Wigner-Fano (BWF) lineshape",
+  "definition": "描述离散能级与连续态耦合时出现的非对称谱线形状。金属性碳纳米管的G-峰呈现BWF线型，是区分金属性和半导体性管的重要标志。",
+  "category": "专业"
+ },
+ {
+  "term": "手性矢量",
+  "english": "chiral vector (Ch)",
+  "definition": "描述碳纳米管卷曲方式的矢量，Ch = n*a1 + m*a2，其中(n,m)为手性指数。手性矢量的长度决定管径，方向决定手性角。",
+  "category": "专业"
+ },
+ {
+  "term": "联合态密度",
+  "english": "joint density of states (JDOS)",
+  "definition": "描述可以发生光学跃迁的电子态密度的物理量。在碳纳米管中，JDOS的范霍夫奇点位置决定了共振拉曼的激发能量窗口。",
+  "category": "专业"
+ },
+ {
+  "term": "综述",
+  "english": "review",
+  "definition": "对某一研究领域已有成果进行系统总结和评价的学术文章。Physics Reports是物理学领域最权威的综述期刊。",
+  "category": "通用"
+ },
+ {
+  "term": "区折叠",
+  "english": "zone folding",
+  "definition": "将高维体系的布里渊区通过周期性边界条件\"折叠\"到低维体系的方法，用于从石墨烯的二维能带推导碳纳米管的一维能带。",
+  "category": "通用"
+ },
+ {
+  "term": "选择规则",
+  "english": "selection rule",
+  "definition": "由对称性决定的物理过程允许或禁止的条件。在拉曼散射中，选择规则决定了哪些声子模在特定偏振几何下可被观测。",
+  "category": "通用"
+ },
+ {
+  "term": "微区光谱",
+  "english": "micro-spectroscopy",
+  "definition": "利用显微镜将光聚焦到微米尺度区域进行光谱测量的技术，可以对单根纳米管进行空间分辨的拉曼测量。",
+  "category": "通用"
+ },
+ {
+  "term": "可调谐激光器",
+  "english": "tunable laser",
+  "definition": "输出波长可在一定范围内连续调节的激光器，用于共振拉曼实验中扫描激发能量以匹配不同纳米管的共振条件。",
+  "category": "通用"
+ },
+ {
+  "term": "非弹性散射",
+  "english": "inelastic scattering",
+  "definition": "散射过程中入射粒子与靶之间发生能量交换的散射。拉曼散射就是光子的非弹性散射，能量变化对应声子能量。",
+  "category": "通用"
+ },
+ {
+  "term": "G带",
+  "english": "G-band",
+  "definition": "碳材料拉曼光谱中约1580 cm-1处的特征峰，源于石墨烯E2g对称性的面内光学声子模。在碳纳米管中分裂为G+（约1590 cm-1，LO模）和G-（约1570 cm-1，TO模），G-的线型可区分金属性和半导体性管。",
+  "category": "专业"
+ },
+ {
+  "term": "D带",
+  "english": "D-band (disorder band)",
+  "definition": "碳材料拉曼光谱中约1350 cm-1处的缺陷诱导峰，源于K点附近A1g对称性的呼吸模声子。通过双共振过程激活，其强度与缺陷密度相关，频率随激光能量色散（约53 cm-1/eV）。",
+  "category": "专业"
+ },
+ {
+  "term": "G'带（2D带）",
+  "english": "G'-band (2D band)",
+  "definition": "碳材料拉曼光谱中约2700 cm-1处的二阶峰，是D带的倍频（两个声子参与的双共振过程）。不需要缺陷即可出现，其线型和强度对电子结构变化极其敏感。",
+  "category": "专业"
+ },
+ {
+  "term": "双共振",
+  "english": "double resonance (DR)",
+  "definition": "二阶拉曼散射过程中同时满足两个共振条件的机制。DR使得非区中心的声子模可以被探测到，是理解D带和G'带色散行为的理论基础。",
+  "category": "专业"
+ },
+ {
+  "term": "中间频率模",
+  "english": "intermediate frequency mode (IFM)",
+  "definition": "碳纳米管拉曼光谱中位于RBM和G带之间（600-1100 cm-1）的弱峰，来源于oTO-LA组合模等二阶过程，其物理机制复杂且仍在研究中。",
+  "category": "专业"
+ },
+ {
+  "term": "M带",
+  "english": "M-band",
+  "definition": "碳纳米管拉曼光谱中约1750 cm-1处的二阶特征，对应oTO声子模在q = 2k处的倍频或组合模，是双共振过程的又一例证。",
+  "category": "专业"
+ },
+ {
+  "term": "指纹",
+  "english": "fingerprint",
+  "definition": "用于唯一标识某种物质或状态的特征信号。在本文中，指石墨烯拉曼光谱中可唯一确定层数的特征峰形。",
+  "category": "通用"
+ },
+ {
+  "term": "高通量",
+  "english": "high-throughput",
+  "definition": "能够快速、大批量处理样品的技术特性。拉曼光谱相比AFM具有高通量优势，可以快速扫描大面积样品。",
+  "category": "通用"
+ },
+ {
+  "term": "无损",
+  "english": "non-destructive",
+  "definition": "不损伤或改变样品的分析方法。拉曼光谱使用低功率激光，不会对石墨烯造成损伤。",
+  "category": "通用"
+ },
+ {
+  "term": "微机械剥离",
+  "english": "micro-mechanical cleavage",
+  "definition": "用胶带反复剥离块体材料以获得薄层样品的技术，也称\"胶带法\"。Geim和Novoselov用此方法首次获得了单层石墨烯。",
+  "category": "通用"
+ },
+ {
+  "term": "电子衍射",
+  "english": "electron diffraction",
+  "definition": "利用电子束通过晶体时产生的衍射图案来分析晶体结构的技术。可以确定层数和堆垛方式。",
+  "category": "通用"
+ },
+ {
+  "term": "密度泛函理论",
+  "english": "density functional theory (DFT)",
+  "definition": "一种基于电子密度（而非波函数）来计算材料电子结构的量子力学方法，是计算凝聚态物理最常用的第一性原理方法。",
+  "category": "通用"
+ },
+ {
+  "term": "少层",
+  "english": "few-layer",
+  "definition": "通常指2-10层的二维材料薄层。少层石墨烯的性质介于单层和体相石墨之间，层数依赖性是研究的重要主题。",
+  "category": "通用"
+ },
+ {
+  "term": "2D峰",
+  "english": "2D peak (G' peak)",
+  "definition": "石墨烯拉曼光谱中约2700 cm-1处的二阶峰，是D峰的倍频（两个K点附近声子参与的双共振过程）。单层为尖锐单峰，双层分裂为四分量，是鉴别石墨烯层数的最关键指标。",
+  "category": "专业"
+ },
+ {
+  "term": "G峰",
+  "english": "G peak",
+  "definition": "石墨烯拉曼光谱中约1580 cm-1处的一阶峰，对应E2g对称性的面内光学声子（C-C键的伸缩振动）。是碳材料最特征的拉曼峰之一。",
+  "category": "专业"
+ },
+ {
+  "term": "D峰",
+  "english": "D peak (disorder peak)",
+  "definition": "石墨烯拉曼光谱中约1350 cm-1处的缺陷诱导峰，对应K点附近A1g对称性的呼吸模声子。通过缺陷辅助的双共振过程激活，完整石墨烯内部不出现D峰。",
+  "category": "专业"
+ },
+ {
+  "term": "AB堆垛",
+  "english": "AB stacking (Bernal stacking)",
+  "definition": "石墨烯层状结构中最常见的堆垛方式。上层的一半原子位于下层六元环中心上方，另一半位于下层原子正上方。体相石墨即采用AB堆垛。",
+  "category": "专业"
+ },
+ {
+  "term": "Kohn反常",
+  "english": "Kohn anomaly",
+  "definition": "声子色散曲线在某些波矢处因电子-声子耦合而产生的异常软化或斜率变化。石墨烯K点附近的TO声子存在强烈的Kohn反常，是2D峰色散行为的物理根源。",
+  "category": "专业"
+ },
+ {
+  "term": "狄拉克锥",
+  "english": "Dirac cone",
+  "definition": "石墨烯K点附近pi电子的线性色散关系形成的圆锥形能带结构。价带和导带在K点线性交叉，电子表现为无质量的狄拉克费米子。",
+  "category": "专业"
+ },
+ {
+  "term": "涡轮层状石墨",
+  "english": "turbostratic graphite",
+  "definition": "层间无规则堆垛的多层石墨，没有AB堆垛的长程有序。其拉曼2D峰为单峰但比单层石墨烯宽得多（约50 cm-1），且向高频偏移约20 cm-1。",
+  "category": "专业"
+ },
+ {
+  "term": "电子衍射堆垛分析",
+  "english": "electron diffraction stacking analysis",
+  "definition": "利用TEM电子衍射图案中内外六边形斑点的强度比来确定多层石墨烯堆垛方式的方法。AB堆垛中外层斑点强度约为内层的两倍，AA堆垛中两者相等。",
+  "category": "专业"
+ },
+ {
+  "term": "微扰论",
+  "english": "perturbation theory",
+  "definition": "将复杂问题分解为已知精确解的小量修正的数学方法。拉曼散射可以用含时微扰论来描述，矩阵元的阶数取决于参与的声子数。",
+  "category": "通用"
+ },
+ {
+  "term": "量子干涉",
+  "english": "quantum interference",
+  "definition": "不同量子路径的振幅叠加时产生的增强或抵消效应。在石墨烯G峰拉曼中，不同k点的贡献存在破坏性干涉。",
+  "category": "通用"
+ },
+ {
+  "term": "背散射",
+  "english": "backscattering",
+  "definition": "散射后粒子运动方向与入射方向相反的散射过程。在石墨烯2D拉曼过程中，电子和空穴必须经历背散射才能在同一点相遇复合。",
+  "category": "通用"
+ },
+ {
+  "term": "无序",
+  "english": "disorder",
+  "definition": "晶体中偏离完美周期性的结构缺陷或化学不均匀性。无序可以激活拉曼禁戒的声子模（如D峰），是拉曼光谱表征的重要对象。",
+  "category": "通用"
+ },
+ {
+  "term": "掺杂",
+  "english": "doping",
+  "definition": "通过添加杂质或施加电场来改变材料中载流子浓度的过程。掺杂通过Pauli阻塞改变拉曼过程中的量子干涉，影响G峰和2D峰。",
+  "category": "通用"
+ },
+ {
+  "term": "各向异性",
+  "english": "anisotropy",
+  "definition": "物理性质随方向变化的特性。石墨烯中电子散射率和电子-声子耦合都具有各向异性，影响拉曼峰的相对强度。",
+  "category": "通用"
+ },
+ {
+  "term": "异质结构",
+  "english": "heterostructure",
+  "definition": "由不同二维材料垂直堆叠形成的复合结构。拉曼光谱可以探测异质结构中各层的化学计量和层间耦合。",
+  "category": "通用"
+ },
+ {
+  "term": "2D峰",
+  "english": "2D peak",
+  "definition": "石墨烯拉曼光谱中约2700 cm-1处的二阶峰，由两个K点附近TO声子的三共振双声子过程产生。不需要缺陷参与，其形状和强度对层数、掺杂和应变敏感。",
+  "category": "专业"
+ },
+ {
+  "term": "D峰",
+  "english": "D peak",
+  "definition": "石墨烯拉曼光谱中约1350 cm-1处的缺陷激活峰，由K点附近TO声子的双共振过程产生。其强度与缺陷密度相关，可用于定量表征缺陷。",
+  "category": "专业"
+ },
+ {
+  "term": "D'峰",
+  "english": "D' peak",
+  "definition": "石墨烯拉曼光谱中约1620 cm-1处的缺陷激活峰，由Gamma点附近LO声子的谷内双共振过程产生。与D峰不同，D'峰可被锯齿形和扶手椅形边缘同时激活。",
+  "category": "专业"
+ },
+ {
+  "term": "C峰（剪切模）",
+  "english": "C peak (shear mode)",
+  "definition": "多层石墨烯中约30-50 cm-1处的低频拉曼峰，对应相邻层沿面内方向的相对剪切运动。频率直接取决于层间耦合强度，是层数的直接探针。",
+  "category": "专业"
+ },
+ {
+  "term": "层呼吸模",
+  "english": "layer breathing mode (LBM)",
+  "definition": "多层石墨烯中相邻层沿面外方向相对振动的模式，频率约80-300 cm-1。可通过与G峰的组合模间接观测，是层数和堆垛方式的探针。",
+  "category": "专业"
+ },
+ {
+  "term": "Tuinstra-Koenig关系",
+  "english": "Tuinstra-Koenig relation",
+  "definition": "描述碳材料拉曼光谱中I(D)/I(G)比值与晶粒尺寸L_a之间反比关系的经验公式：I(D)/I(G) = C(lambda)/L_a。在石墨烯缺陷定量中被推广为与L_D^2的关系。",
+  "category": "专业"
+ },
+ {
+  "term": "无序化轨迹",
+  "english": "amorphisation trajectory",
+  "definition": "描述碳材料从石墨到非晶碳的无序化过程中拉曼光谱参数（如I(D)/I(G)、Pos(G)）的系统演化路径。分为三个阶段，每个阶段有不同的物理机制。",
+  "category": "专业"
+ },
+ {
+  "term": "机械剥离",
+  "english": "mechanical exfoliation",
+  "definition": "利用胶带反复粘贴和撕开来从块体晶体获得超薄薄片的方法，是制备二维材料最经典的手段之一，石墨烯的诺贝尔奖工作就用了这种方法。",
+  "category": "通用"
+ },
+ {
+  "term": "背散射几何",
+  "english": "backscattering geometry",
+  "definition": "拉曼光谱中一种光路配置，入射光和收集光在同一侧（物镜既照明又收集），是最常用的测量方式，适合不透明或半透明样品。",
+  "category": "通用"
+ },
+ {
+  "term": "接触模式",
+  "english": "contact mode",
+  "definition": "原子力显微镜的一种工作模式，探针尖端始终与样品表面接触，通过测量悬臂梁的偏转来获取表面形貌。相比轻敲模式，对超薄样品的厚度测量更准确。",
+  "category": "通用"
+ },
+ {
+  "term": "红移/蓝移",
+  "english": "red shift / blue shift",
+  "definition": "光谱峰向低频方向移动称为红移（软化），向高频方向移动称为蓝移（硬化）。名称来源于可见光谱中红光频率低、蓝光频率高。",
+  "category": "通用"
+ },
+ {
+  "term": "Voigt拟合",
+  "english": "Voigt fit",
+  "definition": "用Voigt线型（高斯线型和洛伦兹线型的卷积）对光谱峰进行拟合的方法，可以同时考虑仪器展宽（高斯）和本征展宽（洛伦兹）的贡献。",
+  "category": "通用"
+ },
+ {
+  "term": "干涉增强",
+  "english": "interference enhancement",
+  "definition": "利用薄膜干涉效应增强光学信号的现象。在SiO2/Si基底上，特定厚度的氧化层可以使二维材料的拉曼信号增强数倍至数十倍。",
+  "category": "通用"
+ },
+ {
+  "term": "面内振动模/面外振动模",
+  "english": "in-plane mode / out-of-plane mode",
+  "definition": "E¹₂g为面内振动模式（原子在层平面内运动），A₁g为面外振动模式（原子垂直于层面运动）。在MoS2中，E¹₂g约384 cm⁻¹，A₁g约408 cm⁻¹，二者的频率差是判断层数的关键参数。",
+  "category": "专业"
+ },
+ {
+  "term": "Davydov分裂",
+  "english": "Davydov splitting",
+  "definition": "在含有多个等价子晶格的晶体中，由于层间相互作用，简并振动模式分裂为对称和反对称两个频率的现象。MoS2中E¹₂g和E1u的分裂就是一个典型例子。",
+  "category": "专业"
+ },
+ {
+  "term": "刚性层模式",
+  "english": "rigid-layer mode",
+  "definition": "层状材料中相邻层整体相对滑动或剪切运动的低频振动模式，频率极低（石墨中E₂g仅42 cm⁻¹），直接反映层间耦合强度。",
+  "category": "专业"
+ },
+ {
+  "term": "三棱柱配位",
+  "english": "trigonal prismatic coordination",
+  "definition": "MoS2中钼原子被六个硫原子以三棱柱形式包围的局部结构。这是2H-MoS2的稳定相，区别于亚稳的八面体配位相（1T-MoS2），后者使E¹₂g拉曼模式失活。",
+  "category": "专业"
+ },
+ {
+  "term": "耦合谐振子模型",
+  "english": "coupled harmonic oscillator model",
+  "definition": "将层状材料每层视为谐振子、层间用弹簧耦合的经典力学模型，用于预测声子频率随层数的变化。可以解释A₁g的蓝移但无法解释E¹₂g的反常红移。",
+  "category": "专业"
+ },
+ {
+  "term": "过渡金属二硫族化合物",
+  "english": "transition metal dichalcogenide (TMDC)",
+  "definition": "化学式为MX₂的一类层状材料（M=Mo、W等过渡金属，X=S、Se、Te等硫族元素）。MoS2是其中最具代表性的成员，单层为直接带隙半导体（~1.8 eV），在电子器件和光催化中有广泛应用。",
+  "category": "专业"
+ },
+ {
+  "term": "光学对比度",
+  "english": "optical contrast",
+  "definition": "样品区域与基底区域的反射光强度差异的相对值。对于二维材料，对比度通常很小（<10%），需要通过优化基底厚度或使用窄带滤光片来增强。",
+  "category": "通用"
+ },
+ {
+  "term": "窄带滤光片",
+  "english": "narrow bandpass filter",
+  "definition": "只允许特定波长范围（通常带宽~10 nm）光通过的光学元件。在hBN观察中，使用绿色滤光片可以避开对比度过零的波长区域，提高可见性。",
+  "category": "通用"
+ },
+ {
+  "term": "椭偏仪",
+  "english": "spectroscopic ellipsometer",
+  "definition": "通过测量偏振光在样品表面反射后偏振态的变化来确定材料光学常数（折射率n和消光系数k）的仪器。本文中用于测量hBN晶体的光学参数。",
+  "category": "通用"
+ },
+ {
+  "term": "积分强度",
+  "english": "integrated intensity",
+  "definition": "拉曼光谱峰下方面积，正比于该振动模式的散射光子总数。与峰高不同，积分强度不受峰宽变化的影响，是更可靠的定量指标。",
+  "category": "通用"
+ },
+ {
+  "term": "半高全宽",
+  "english": "full width at half maximum (FWHM)",
+  "definition": "光谱峰在最大强度一半处的宽度，反映振动模式的寿命和均匀性。峰越窄说明声子寿命越长、样品质量越好。hBN的E₂g半高宽约9-12 cm⁻¹。",
+  "category": "通用"
+ },
+ {
+  "term": "微机械剥离",
+  "english": "micromechanical cleavage",
+  "definition": "用胶带从块体晶体反复剥离获得薄片的实验方法，与\"机械剥离\"（mechanical exfoliation）含义相同，是制备二维材料的经典\"自下而上\"方法。",
+  "category": "通用"
+ },
+ {
+  "term": "E₂g声子模式",
+  "english": "E2g phonon mode",
+  "definition": "hBN中最主要的拉曼活性振动模式，对应B和N原子在垂直于c轴平面内的反相振动。频率约1366 cm⁻¹，是hBN的\"指纹峰\"，类似于石墨烯中的G峰（~1580 cm⁻¹）。",
+  "category": "专业"
+ },
+ {
+  "term": "等电子体",
+  "english": "isoelectronic analog",
+  "definition": "具有相同价电子数和相似晶体结构但由不同元素组成的材料。hBN是石墨烯的等电子体（C-C → B-N），但由于对称性破缺，电子性质截然不同。",
+  "category": "专业"
+ },
+ {
+  "term": "高度-高度关联函数",
+  "english": "height-height correlation function (HHCF)",
+  "definition": "描述表面粗糙度统计特征的函数g(r)=⟨[h(x)-h(x+r)]²⟩，在短距离服从幂律g(r)=Ar^(2H)，在长距离饱和为2σ²。可用于定量分析二维材料在基底上的皱褶程度。",
+  "category": "专业"
+ },
+ {
+  "term": "热膨胀系数失配",
+  "english": "thermal expansion coefficient mismatch (TEC mismatch)",
+  "definition": "不同材料的热膨胀系数差异。BN（α≈-2.9×10⁻⁶/K）和SiO2（α≈0.75×10⁻⁶/K）的TEC失配导致退火后BN薄膜中产生额外的双轴压缩应变。",
+  "category": "专业"
+ },
+ {
+  "term": "声子硬化",
+  "english": "phonon hardening",
+  "definition": "晶格振动频率升高的现象，通常由键长缩短或力常数增大引起。在hBN单层中，失去层间范德华约束导致B-N键缩短，E₂g模式硬化约4 cm⁻¹。",
+  "category": "专业"
+ },
+ {
+  "term": "高定向热解氮化硼",
+  "english": "highly oriented pyrolytic boron nitride (HOPBN)",
+  "definition": "通过化学气相沉积制备的高度取向的hBN多晶材料，类似于石墨领域的HOPG。本文发现HOPBN只能剥离出厚层阶梯状晶体，无法获得单层，因此改用单晶hBN。",
+  "category": "专业"
+ },
+ {
+  "term": "第一性原理计算",
+  "english": "first-principles calculation / ab initio calculation",
+  "definition": "仅基于基本物理定律（量子力学）而不依赖经验参数的计算方法。DFT是最常用的第一性原理方法，可以从原子种类和位置预测材料的电子结构、振动性质等。",
+  "category": "通用"
+ },
+ {
+  "term": "杂化泛函",
+  "english": "hybrid functional",
+  "definition": "将Hartree-Fock精确交换与DFT交换关联泛函混合使用的计算方法。HSE06是最常用的杂化泛函之一，通过屏蔽参数分离短程和长程交换，在固体计算中兼顾精度和效率。",
+  "category": "通用"
+ },
+ {
+  "term": "自仿射标度",
+  "english": "self-affine scaling",
+  "definition": "描述粗糙表面统计自相似性的标度律。与自相似（各方向等比例缩放）不同，自仿射允许垂直和水平方向有不同的缩放比例，更适合描述真实表面形貌。",
+  "category": "通用"
+ },
+ {
+  "term": "均方根粗糙度",
+  "english": "root mean square (RMS) roughness",
+  "definition": "表面高度偏离平均值的均方根偏差σ，是表征表面粗糙程度最常用的单一参数。本文中1L BN的RMS粗糙度约123-139 pm。",
+  "category": "通用"
+ },
+ {
+  "term": "双轴压缩应变",
+  "english": "biaxial compressive strain",
+  "definition": "材料在面内两个方向同时受到压缩的应变状态。本文中由BN和SiO2的热膨胀系数失配引起，冷却过程中BN膨胀更多而受到压缩。",
+  "category": "通用"
+ },
+ {
+  "term": "相关长度",
+  "english": "correlation length",
+  "definition": "表面上两点高度差达到饱和值时的距离尺度ξ，反映表面起伏的空间范围。本文中ξ约24-26 nm，退火后略微减小。",
+  "category": "通用"
+ },
+ {
+  "term": "optB88-vdW泛函",
+  "english": "optB88-vdW functional",
+  "definition": "一种包含范德华色散力修正的密度泛函，基于optB88交换泛函。能正确描述层状材料中层间弱相互作用对结构和能量的影响，但在预测振动频率时精度不如杂化泛函。",
+  "category": "专业"
+ },
+ {
+  "term": "精确交换混合参数",
+  "english": "exact exchange mixing parameter (αex)",
+  "definition": "HSE06杂化泛函中控制Hartree-Fock精确交换比例的参数。标准值为0.25。本文发现αex=0.40时hBN的E₂g频率计算值与实验最吻合，说明默认值可能不足。",
+  "category": "专业"
+ },
+ {
+  "term": "PEAD方法",
+  "english": "PEAD (Perturbation Expression for Ab initio Dielectric) method",
+  "definition": "一种基于密度泛函微扰理论（DFPT）计算拉曼活性和红外活性活性的方法，通过计算对外加电场的线性响应来获得声子的拉曼张量。",
+  "category": "专业"
+ },
+ {
+  "term": "Grüneisen色散关系",
+  "english": "Grüneisen dispersion relations",
+  "definition": "描述Grüneisen参数γ随波矢k变化的关系曲线。不同k点的声子模式有不同的γ值。Γ点的LO和TO模式γ=0.64，用于将宏观拉曼频移与微观应变定量关联。",
+  "category": "专业"
+ },
+ {
+  "term": "弯曲刚度",
+  "english": "bending modulus / flexural rigidity",
+  "definition": "抵抗面外弯曲变形的能力，与厚度的三次方成正比。hBN单层的弯曲刚度极小（~1-2 eV），使其能够紧密贴合基底表面的纳米级起伏，从而产生较大应变。",
+  "category": "专业"
+ },
+ {
+  "term": "陷波滤波器",
+  "english": "notch filter",
+  "definition": "一种光学滤波器，用于强烈衰减特定波长范围（通常是激光线附近）的光信号。在低频拉曼测量中，陷波滤波器的截止频率决定了可探测的最低拉曼频移。",
+  "category": "通用"
+ },
+ {
+  "term": "交叉偏振",
+  "english": "cross polarization",
+  "definition": "入射光和散射光的偏振方向互相垂直的配置。在这种配置下，某些对称性的拉曼模式被抑制，而基底背景（通常为非偏振散射）也被大幅减弱。",
+  "category": "通用"
+ },
+ {
+  "term": "本征值问题",
+  "english": "eigenvalue problem",
+  "definition": "数学上求解矩阵方程Ax=λx的问题，其中λ为本征值，x为本征矢。在晶格动力学中，动力学矩阵的本征值给出声子频率的平方，本征矢给出振动模式。",
+  "category": "通用"
+ },
+ {
+  "term": "瑞利散射",
+  "english": "Rayleigh scattering",
+  "definition": "光子与物质发生弹性散射（不交换能量）的过程，散射光频率与入射光相同。瑞利散射强度通常是拉曼散射的10⁹-10¹²倍，必须用滤波器抑制才能观测拉曼信号。",
+  "category": "通用"
+ },
+ {
+  "term": "层间剪切模式",
+  "english": "interlayer shear mode",
+  "definition": "层状材料中相邻层沿面内方向反相滑动的低频振动模式。在多层石墨烯中对应C峰（30-43 cm⁻¹），频率直接反映层间耦合强度α。",
+  "category": "专业"
+ },
+ {
+  "term": "线性链模型",
+  "english": "linear chain model",
+  "definition": "将N层石墨烯简化为N个质量块用弹簧连接的一维模型。模型预测C峰频率Pos(C)_N = √(2α/μ)·√(1+cos(π/N))/(2πc)，与实验完美吻合。",
+  "category": "专业"
+ },
+ {
+  "term": "Bernal堆垛",
+  "english": "Bernal stacking (AB stacking)",
+  "definition": "石墨和多层石墨烯中最常见的堆垛方式：每一层有一半原子位于下层原子的正上方，另一半位于下层六元环的中心。这种堆垛使相邻层不等价，导致石墨具有红外活性。",
+  "category": "专业"
+ },
+ {
+  "term": "电子-声子耦合",
+  "english": "electron-phonon coupling (EPC)",
+  "definition": "电子运动与晶格振动之间的相互作用。EPC强度决定了拉曼峰的强度：G峰的EPC很大（~150倍于C峰），因此G峰远强于C峰。EPC也是超导电性和电阻温度依赖性的微观起源。",
+  "category": "专业"
+ },
+ {
+  "term": "密度泛函微扰理论",
+  "english": "density functional perturbation theory (DFPT)",
+  "definition": "在DFT框架下计算晶格动力学性质的方法。通过对Kohn-Sham方程施加小扰动（原子位移），计算能量的二阶导数得到力常数矩阵，进而对角化获得声子频率和振动模式。",
+  "category": "专业"
+ },
+ {
+  "term": "标度关系",
+  "english": "scaling relation",
+  "definition": "描述物理量随某个参数（如层数N）变化的函数关系。本文中剪切和层呼吸模式的频率随层数N遵循特定的标度律。",
+  "category": "通用"
+ },
+ {
+  "term": "不可约表示",
+  "english": "irreducible representation",
+  "definition": "群论中描述对称操作下变换性质的最小数学对象。在晶格振动中，每个声子模式属于某个不可约表示，决定了它是否拉曼活性、红外活性或沉默。",
+  "category": "通用"
+ },
+ {
+  "term": "本征方程",
+  "english": "eigen-equation",
+  "definition": "描述物理系统振动模式的数学方程，求解本征方程可以得到系统的本征频率（振动频率）和本征矢量（原子位移模式）。",
+  "category": "通用"
+ },
+ {
+  "term": "约化质量",
+  "english": "reduced mass",
+  "definition": "在多体振动问题中，将两个或多个质点的振动等效为单体振动时使用的有效质量。在双原子链模型中，μ = 2mS用于描述两个S原子相对Mo原子的振动。",
+  "category": "通用"
+ },
+ {
+  "term": "光谱分辨率",
+  "english": "spectral resolution",
+  "definition": "光谱仪能够区分的最小频率差。本文通过陷波滤波器实现了约0.6 cm⁻¹的分辨率，足以分辨低频区域的精细结构。",
+  "category": "通用"
+ },
+ {
+  "term": "剪切模式",
+  "english": "shear mode (C mode)",
+  "definition": "多层材料中相邻层沿面内方向发生相对刚性位移的振动模式，频率通常在20-40 cm⁻¹范围内，由层间范德华力主导。",
+  "category": "专业"
+ },
+ {
+  "term": "双原子链模型",
+  "english": "diatomic chain model (DCM)",
+  "definition": "将多层MoS2中S和Mo原子面交替排列建模为一维双原子链的理论框架，包含层内αsm和层间αss两个力常数。",
+  "category": "专业"
+ },
+ {
+  "term": "过渡金属硫族化合物",
+  "english": "transition metal dichalcogenide (TMD)",
+  "definition": "化学式为MX2的一类层状材料（M为过渡金属如，X为硫族元素S/Se/Te），单层为直接带隙半导体，层间由范德华力耦合。",
+  "category": "专业"
+ },
+ {
+  "term": "点群对称性",
+  "english": "point group symmetry",
+  "definition": "描述晶体宏观对称性的数学群。偶数层MoS2属于D6h点群（含反演对称），奇数层属于D3h点群（无反演对称）。",
+  "category": "专业"
+ },
+ {
+  "term": "拉曼张量",
+  "english": "Raman tensor",
+  "definition": "描述拉曼散射过程中极化率变化的3×3矩阵。不同对称性的模式有不同的拉曼张量形式，决定了该模式在何种偏振配置下可见。",
+  "category": "专业"
+ },
+ {
+  "term": "范德华力",
+  "english": "van der Waals force",
+  "definition": "层状材料中相邻层之间的弱相互作用力，比层内共价键弱约两个数量级。层间剪切模量和压缩模量均由范德华力决定。",
+  "category": "专业"
+ },
+ {
+  "term": "布里渊区",
+  "english": "Brillouin zone",
+  "definition": "倒易空间中的基本单元，用于描述晶体中声子和电子的色散关系。层数增加导致沿c方向的布里渊区缩小，产生声子折叠效应。",
+  "category": "专业"
+ },
+ {
+  "term": "超晶格",
+  "english": "superlattice",
+  "definition": "由两种或多种周期性结构叠加产生的大尺度周期性结构。在本文中特指旋转双层石墨烯中莫尔条纹形成的超晶格。",
+  "category": "通用"
+ },
+ {
+  "term": "双共振",
+  "english": "double resonance",
+  "definition": "拉曼散射过程中涉及两次散射事件（一次弹性、一次非弹性）的机制，使得原本因动量守恒限制而不能被观测到的声子变得可观测。",
+  "category": "通用"
+ },
+ {
+  "term": "色散",
+  "english": "dispersion",
+  "definition": "物理量（如拉曼峰频率）随某个参数（如激发光能量）变化的现象。色散峰频率随激发光变化，非色散峰频率固定不变。",
+  "category": "通用"
+ },
+ {
+  "term": "折叠",
+  "english": "folding",
+  "definition": "本文中特指用AFM针尖将单层石墨烯的一部分折起来覆盖在另一部分上，形成旋转双层结构的实验方法。",
+  "category": "通用"
+ },
+ {
+  "term": "动量守恒",
+  "english": "momentum conservation",
+  "definition": "散射过程中总动量保持不变的物理定律。在拉曼散射中，光子的动量极小，因此声子的动量必须由其他机制（缺陷、超晶格势）来补偿。",
+  "category": "通用"
+ },
+ {
+  "term": "共振条件",
+  "english": "resonance condition",
+  "definition": "当激发光能量与电子跃迁能量匹配时，拉曼散射截面显著增大的条件。本文中R'峰的共振条件由旋转角θ决定。",
+  "category": "通用"
+ },
+ {
+  "term": "莫尔条纹",
+  "english": "Moiré pattern",
+  "definition": "两套周期性图案叠加时产生的大尺度干涉图案。在旋转双层石墨烯中，莫尔条纹的周期由旋转角θ决定，L = a/[2sin(θ/2)]。",
+  "category": "专业"
+ },
+ {
+  "term": "狄拉克点",
+  "english": "Dirac point",
+  "definition": "石墨烯能带结构中导带和价带线性交叉的点，位于布里渊区的K和K'点。在狄拉克点附近，电子表现出无质量狄拉克费米子的行为。",
+  "category": "专业"
+ },
+ {
+  "term": "纵向光学声子",
+  "english": "longitudinal optical (LO) phonon",
+  "definition": "原子振动方向与波传播方向平行的光学支声子。在石墨烯中，LO声子在Γ点附近与R'峰的产生有关。",
+  "category": "专业"
+ },
+ {
+  "term": "横向光学声子",
+  "english": "transversal optical (TO) phonon",
+  "definition": "原子振动方向与波传播方向垂直的光学支声子。在石墨烯中，TO声子在K点附近与R峰的产生有关。",
+  "category": "专业"
+ },
+ {
+  "term": "晶格分辨AFM",
+  "english": "lattice resolution AFM",
+  "definition": "能够在原子尺度分辨晶格结构的高分辨率原子力显微镜技术。本文中用于确定石墨烯边缘的锯齿形晶格取向，从而精确测量旋转角θ。",
+  "category": "专业"
+ },
+ {
+  "term": "谷间散射",
+  "english": "intervalley scattering",
+  "definition": "电子从一个布里渊区谷（K点）散射到另一个不等价谷（K'点）的过程，需要较大的动量转移。在旋转双层石墨烯中对应大角度下的R峰。",
+  "category": "专业"
+ },
+ {
+  "term": "谷内散射",
+  "english": "intravalley scattering",
+  "definition": "电子在同一个布里渊区谷内的散射过程，动量转移较小。在旋转双层石墨烯中对应小角度下的R'峰。",
+  "category": "专业"
+ },
+ {
+  "term": "临界角",
+  "english": "critical angle",
+  "definition": "旋转双层石墨烯中，范霍夫奇点之间的能量差恰好等于激发光能量时的旋转角θc。在此角度下，G峰出现最大强度增强。",
+  "category": "通用"
+ },
+ {
+  "term": "共振增强",
+  "english": "resonance enhancement",
+  "definition": "当某个物理参数（如激发光能量）与系统的特征能量匹配时，物理过程的截面显著增大的现象。本文中G峰的共振增强可达30倍。",
+  "category": "通用"
+ },
+ {
+  "term": "选区电子衍射",
+  "english": "selected area electron diffraction (SAED)",
+  "definition": "TEM中通过在特定区域选择电子束来获得该区域的晶体结构信息的技术。本文中用于精确测定双层石墨烯的旋转角。",
+  "category": "通用"
+ },
+ {
+  "term": "微扰展开",
+  "english": "perturbation expansion",
+  "definition": "将复杂的物理过程按相互作用的阶数展开的数学方法。G峰对应三阶微扰，2D峰对应四阶微扰。",
+  "category": "通用"
+ },
+ {
+  "term": "公共周期结构",
+  "english": "commensurate structure",
+  "definition": "两个晶格旋转后仍能形成周期性超胞的结构。只有特定的旋转角才能形成公共周期结构。",
+  "category": "通用"
+ },
+ {
+  "term": "线宽",
+  "english": "linewidth (FWHM)",
+  "definition": "拉曼峰的半高全宽，反映声子寿命和系统的无序程度。线宽越大，声子寿命越短或系统越无序。",
+  "category": "通用"
+ },
+ {
+  "term": "范霍夫奇点",
+  "english": "Van Hove singularity",
+  "definition": "态密度中出现尖锐峰值的特殊能量点。在旋转双层石墨烯中，由两层狄拉克锥的层间耦合产生，其能量差ΔE与旋转角θ成正比。",
+  "category": "专业"
+ },
+ {
+  "term": "化学气相沉积",
+  "english": "chemical vapor deposition (CVD)",
+  "definition": "在高温下使含碳气体在金属基底（如铜箔）上分解并生长石墨烯的方法。CVD石墨烯通常为多晶，晶粒之间具有不同的取向。",
+  "category": "专业"
+ },
+ {
+  "term": "Slater-Koster参数",
+  "english": "Slater-Koster parameters",
+  "definition": "紧束缚模型中描述原子轨道之间跳跃积分的参数集。通过拟合第一性原理（DFT）计算结果可以获得这些参数，用于构建大体系的电子结构模型。",
+  "category": "专业"
+ },
+ {
+  "term": "干法转移",
+  "english": "dry transfer",
+  "definition": "使用PMMA/PDMS等聚合物薄膜将二维材料从生长基底转移到目标基底的技术方法。相比湿法转移，干法转移避免了溶剂残留对界面的污染。",
+  "category": "通用"
+ },
+ {
+  "term": "统计分布",
+  "english": "statistical distribution",
+  "definition": "对多个样品在同一参数区间内的测量数据进行统计分析，用平均值和变化范围来表征普遍规律，而非依赖单一样品的个案结果。",
+  "category": "通用"
+ },
+ {
+  "term": "力常数",
+  "english": "force constant",
+  "definition": "描述原子间或层间相互作用强度的物理量，定义为势能对位移的二阶导数。力常数越大，振动频率越高。",
+  "category": "通用"
+ },
+ {
+  "term": "非均匀性",
+  "english": "nonuniformity",
+  "definition": "样品中某个物理量（如层间距、耦合强度）在空间上不均匀分布的状态。在本文中表现为拉曼光谱中出现多个呼吸模式峰。",
+  "category": "通用"
+ },
+ {
+  "term": "恢复力",
+  "english": "restoring force",
+  "definition": "当系统偏离平衡位置时，试图将系统拉回平衡位置的力。在层间振动中，恢复力来源于层间相互作用随相对位移的变化。",
+  "category": "通用"
+ },
+ {
+  "term": "能量截断",
+  "english": "energy cutoff",
+  "definition": "平面波基组计算中平面波动能的最大值。本文DFT计算使用400 eV的能量截断，确保计算结果的收敛性。",
+  "category": "通用"
+ },
+ {
+  "term": "3R堆叠",
+  "english": "3R stacking",
+  "definition": "双层MoS2在θ = 0°时的一种高对称堆叠方式，上层Mo原子位于下层S原子正上方，另一Mo和S原子位于六角环中心上方。是仅次于2H的第二稳定堆叠。",
+  "category": "专业"
+ },
+ {
+  "term": "2H堆叠",
+  "english": "2H stacking",
+  "definition": "双层MoS2在θ = 60°时的一种高对称堆叠方式，上层Mo位于下层S上方，上层S位于下层Mo上方。是所有堆叠中最稳定的构型，天然剥离的双层MoS2通常为2H堆叠。",
+  "category": "专业"
+ },
+ {
+  "term": "扭转双层",
+  "english": "twisted bilayer",
+  "definition": "由两片单层二维材料以相对旋转角度θ堆叠形成的双层结构。扭转角θ决定了层间堆叠方式和耦合强度。",
+  "category": "专业"
+ },
+ {
+  "term": "剪切力常数",
+  "english": "shear force constant (Ks)",
+  "definition": "描述层间面内剪切耦合强度的力常数。在MoS2中，Ks在可观测范围内从2.30变化到4.51×10¹⁹ N/m³，在失配堆叠中降至约0.02×10¹⁹ N/m³。",
+  "category": "专业"
+ },
+ {
+  "term": "呼吸力常数",
+  "english": "breathing force constant (Kb)",
+  "definition": "描述层间面外呼吸耦合强度的力常数。在MoS2中，Kb在0°-60°全范围内从6.26变化到9.52×10¹⁹ N/m³，相对偏差仅5.9%。",
+  "category": "专业"
+ },
+ {
+  "term": "高对称堆叠畴",
+  "english": "high-symmetry stacking domain",
+  "definition": "扭转双层MoS2中局部区域内原子排列呈现高对称堆叠方式（如2H、3R、AA等）的畴区。在0°和60°附近，不同高对称畴共存。",
+  "category": "专业"
+ },
+ {
+  "term": "瑞利线",
+  "english": "Rayleigh line",
+  "definition": "拉曼光谱中弹性散射光对应的零频移峰。低频拉曼模式如果频率太低（<10 cm⁻¹），会被瑞利线的翼部淹没而无法观测。",
+  "category": "专业"
+ },
+ {
+  "term": "微扰",
+  "english": "perturbation",
+  "definition": "对物理系统施加的小的额外作用力或势场。在本文中，莫尔势作为微扰作用于单层MoS2的声子上，使其发生折叠。",
+  "category": "通用"
+ },
+ {
+  "term": "简并",
+  "english": "degenerate",
+  "definition": "多个量子态具有相同能量的状态。本文中六个莫尔声子由于莫尔倒格矢等长而近似简并，实验上只观测到一个合并峰。",
+  "category": "通用"
+ },
+ {
+  "term": "共振拉曼",
+  "english": "resonant Raman",
+  "definition": "当激发光能量与材料中某个电子跃迁（如激子）匹配时，拉曼散射截面显著增大的效应。本文中莫尔声子的观测依赖于C激子共振。",
+  "category": "通用"
+ },
+ {
+  "term": "色散关系",
+  "english": "dispersion relation",
+  "definition": "描述波的频率（或能量）与波矢之间关系的函数。声子色散关系ω(q)是理解晶格动力学的基础。",
+  "category": "通用"
+ },
+ {
+  "term": "原胞",
+  "english": "unit cell",
+  "definition": "晶体结构中最小的重复单元。莫尔超晶格的原胞远大于单层MoS2的原胞，包含数百甚至数千个原子。",
+  "category": "通用"
+ },
+ {
+  "term": "莫尔声子",
+  "english": "moiré phonon",
+  "definition": "扭转双层二维材料中由莫尔超晶格周期性势场折叠激活的声子模式。其波矢由莫尔倒格矢基本矢量决定，频率随扭转角θ变化。",
+  "category": "专业"
+ },
+ {
+  "term": "晶体学超晶格",
+  "english": "crystallographic superlattice",
+  "definition": "由两层晶格严格匹配形成的超晶格，只在特定公共周期扭转角（如(1,2), (5,7)等）存在。其倒格矢长度是莫尔倒格矢的|m-n|倍。",
+  "category": "专业"
+ },
+ {
+  "term": "莫尔超晶格",
+  "english": "moiré superlattice",
+  "definition": "由两层晶格失配自然产生的大尺度周期性图案。对任意扭转角θ都存在，其倒格矢基本矢量|g| = (8π/√3a)sin(θ/2)。",
+  "category": "专业"
+ },
+ {
+  "term": "纵向声学声子",
+  "english": "longitudinal acoustic (LA) phonon",
+  "definition": "原子振动方向与波传播方向平行的声学支声子。在MoS2单层中，LA声子的最大频率约225 cm⁻¹，其折叠模式（FLA）是莫尔声子中最容易观测的系列之一。",
+  "category": "专业"
+ },
+ {
+  "term": "激子",
+  "english": "exciton",
+  "definition": "半导体中由库仑力束缚的电子-空穴对。MoS2单层中有A、B、C三个主要激子峰，分别对应不同的带间跃迁。C激子（约2.7 eV）对莫尔声子的共振拉曼增强至关重要。",
+  "category": "专业"
+ },
+ {
+  "term": "Wigner-Seitz原胞",
+  "english": "Wigner-Seitz cell",
+  "definition": "倒易空间中由某个格点出发、到所有最近邻格点的垂直平分面围成的区域。本文中用于定义莫尔超晶格和晶体学超晶格的倒易空间基本单元。",
+  "category": "专业"
+ },
+ {
+  "term": "scalable",
+  "english": "scalable",
+  "definition": "可扩展的，指某种方法能够从小规模实验扩展到工业级大规模生产。在本文中指CVD/OHVPD方法相比机械剥离具有规模化生产的潜力。",
+  "category": "通用"
+ },
+ {
+  "term": "notorious",
+  "english": "notorious",
+  "definition": "臭名昭著的，以坏事闻名的。文中用来形容CVD生长的TMDs缺陷密度高的问题广为人知。",
+  "category": "通用"
+ },
+ {
+  "term": "formidable",
+  "english": "formidable",
+  "definition": "艰巨的，令人畏惧的。文中指钝化其他替代性点缺陷仍然是一个巨大的挑战。",
+  "category": "通用"
+ },
+ {
+  "term": "corroborate",
+  "english": "corroborate",
+  "definition": "证实，佐证。文中指OHVPD-WS2中较低的XT和XD峰强度佐证了其基面上更低的缺陷密度。",
+  "category": "通用"
+ },
+ {
+  "term": "conspicuous",
+  "english": "conspicuous",
+  "definition": "显而易见的，引人注目的。文中指CVD-WS2比OHVPD-WS2显示出明显更多的结构缺陷。",
+  "category": "通用"
+ },
+ {
+  "term": "paramount",
+  "english": "paramount",
+  "definition": "至关重要的，首要的。文中强调最小化合成TMDs的缺陷密度对于实现高性能电子应用至关重要。",
+  "category": "通用"
+ },
+ {
+  "term": "aforementioned",
+  "english": "aforementioned",
+  "definition": "前述的，上文提到的。学术论文中常用的回指词，指代前文已经提及的内容。",
+  "category": "通用"
+ },
+ {
+  "term": "transition metal dichalcogenide (TMD)",
+  "english": "transition metal dichalcogenide",
+  "definition": "过渡金属硫族化合物，化学式为MX2（M=Mo, W等过渡金属；X=S, Se, Te等硫族元素）的一类层状二维材料，具有半导体性质，是后硅时代晶体管沟道材料的有力候选者。",
+  "category": "专业"
+ },
+ {
+  "term": "nudged elastic band (NEB)",
+  "english": "nudged elastic band method",
+  "definition": "微弹性带方法，一种计算化学反应最小能量路径和活化能垒的第一性原理计算方法。通过在反应物和产物之间插入一系列'镜像'（images），优化这些镜像的位置以找到能量最低的反应路径。",
+  "category": "专业"
+ },
+ {
+  "term": "scanning tunneling microscopy (STM)",
+  "english": "scanning tunneling microscopy",
+  "definition": "扫描隧道显微镜，利用量子隧穿效应实现原子级分辨的表面形貌表征技术。在本文中用于直接观察和统计WS2单层中的各种点缺陷。",
+  "category": "专业"
+ },
+ {
+  "term": "metal-insulator transition (MIT)",
+  "english": "metal-insulator transition",
+  "definition": "金属-绝缘体转变，二维系统中载流子密度超过临界值时，电阻温度依赖性从绝缘体行为（电阻随温度降低而增大）转变为金属行为（电阻随温度降低而减小）的现象。MIT的出现是低无序度系统的标志。",
+  "category": "专业"
+ },
+ {
+  "term": "oxygen substituting sulfur (Os)",
+  "english": "oxygen substituting sulfur defect",
+  "definition": "氧替代硫缺陷，TMDs中最常见的点缺陷之一。氧原子替代了硫原子的位置，由于O和S是等电子的，这种缺陷不会引入带隙内的带电态，但会影响材料的局部结构和化学稳定性。",
+  "category": "专业"
+ },
+ {
+  "term": "field-effect mobility",
+  "english": "field-effect mobility",
+  "definition": "场效应迁移率，衡量载流子在场效应晶体管沟道中运动快慢的物理量，单位为cm2/Vs。迁移率越高，器件性能越好。是评估二维半导体材料质量的核心指标之一。",
+  "category": "专业"
+ },
+ {
+  "term": "charged impurity scattering",
+  "english": "charged impurity scattering",
+  "definition": "带电杂质散射，二维材料中带电缺陷（如带电空位、替代杂质等）通过长程库仑势对载流子产生的散射作用。这种散射机制在低温下尤为显著，是限制迁移率的主要因素之一。",
+  "category": "专业"
+ },
+ {
+  "term": "wafer-scale",
+  "english": "wafer-scale",
+  "definition": "晶圆级的，指在整片晶圆（通常为2-4英寸）尺度上实现均匀的性能。这是从实验室走向工业应用的关键指标之一。",
+  "category": "通用"
+ },
+ {
+  "term": "seamless stitching",
+  "english": "seamless stitching",
+  "definition": "无缝拼接，指两个晶粒在合并时不形成晶界，原子排列完全连续。这是实现真正单晶薄膜的必要条件之一。",
+  "category": "通用"
+ },
+ {
+  "term": "state-of-the-art",
+  "english": "state-of-the-art",
+  "definition": "最先进的，指在某一时刻达到的最高水平。学术论文中常用来描述自己的结果在该领域中处于领先水平。",
+  "category": "通用"
+ },
+ {
+  "term": "industry-compatible",
+  "english": "industry-compatible",
+  "definition": "工业兼容的，指所使用的材料、工艺或设备与现有工业生产流程兼容，无需特殊定制。这在从实验室到工厂的技术转化中非常重要。",
+  "category": "通用"
+ },
+ {
+  "term": "benchmark",
+  "english": "benchmark",
+  "definition": "基准测试，用于比较不同方法或材料性能的标准参考。在本文中，作者将器件性能与文献中的最好结果进行了benchmark对比。",
+  "category": "通用"
+ },
+ {
+  "term": "prerequisite",
+  "english": "prerequisite",
+  "definition": "先决条件，前提。文中指制备晶圆级单晶MoS2是实现其全部潜力和高端应用的先决条件。",
+  "category": "通用"
+ },
+ {
+  "term": "buffer layer",
+  "english": "buffer layer",
+  "definition": "缓冲层，位于外延薄膜和衬底之间的原子级薄层。在本文中特指O-Mo-O-Al组成的界面重构层，它作为模板引导MoS2的单向排列。缓冲层的概念在半导体外延中广泛使用，用于缓解晶格失配或调控界面化学。",
+  "category": "专业"
+ },
+ {
+  "term": "second-harmonic generation (SHG)",
+  "english": "second-harmonic generation",
+  "definition": "二次谐波产生，一种二阶非线性光学效应。频率为ω的入射光在非线性介质中产生频率为2ω的辐射。SHG对晶体对称性高度敏感，是检测二维材料晶格取向和晶界的有力工具。",
+  "category": "专业"
+ },
+ {
+  "term": "circular dichroism",
+  "english": "circular dichroism",
+  "definition": "圆二色性，指材料对左旋和右旋圆偏振光的响应差异。在本文中，100%的声子圆二色性（E1_2g模只在交叉圆偏振下出现）是单层MoS2完美晶格质量的标志。",
+  "category": "专业"
+ },
+ {
+  "term": "valley polarization",
+  "english": "valley polarization",
+  "definition": "谷极化，指激子在布里渊区K和K'两个不等价谷中的布居数差异。在单层MoS2中，谷极化度对缺陷敏感——缺陷促进谷间散射，降低极化度。~68%的谷极化度表明极低的缺陷密度。",
+  "category": "专业"
+ },
+ {
+  "term": "vicinal substrate",
+  "english": "vicinal substrate",
+  "definition": "偏切衬底，指从主晶面稍微偏切一个小角度（通常0.1°-15°）的衬底。偏切导致表面形成原子级台阶和平台（terrace）的周期性结构，可以引导二维材料的定向成核和生长。",
+  "category": "专业"
+ },
+ {
+  "term": "low-energy electron diffraction (LEED)",
+  "english": "low-energy electron diffraction",
+  "definition": "低能电子衍射，利用低能电子束（通常20-200 eV）照射样品表面，通过分析衍射图案来确定表面晶体结构和对称性的技术。LEED图案的对称性直接反映表面原子排列的对称性。",
+  "category": "专业"
+ },
+ {
+  "term": "subthreshold swing (SS)",
+  "english": "subthreshold swing",
+  "definition": "亚阈值摆幅，指场效应晶体管中漏极电流变化一个数量级所需的栅极电压变化量，单位为mV/dec。SS越小，晶体管的开关特性越陡峭。室温下的理论极限为~60 mV/dec。",
+  "category": "专业"
+ },
+ {
+  "term": "h-BN encapsulation",
+  "english": "h-BN encapsulation",
+  "definition": "六方氮化硼封装技术，用h-BN薄片上下包裹二维材料，形成van der Waals异质结构。h-BN的原子级平整表面和无悬挂键特性可以有效减少界面散射，提升器件性能。",
+  "category": "专业"
+ },
+ {
+  "term": "rhombohedral",
+  "english": "rhombohedral",
+  "definition": "菱方的，指一种晶体结构类型，其特征是三个等长的轴以相同的非直角相交。在TMD中，3R相就是菱方结构（ABCABC堆叠），与六方（2H）结构相对。",
+  "category": "通用"
+ },
+ {
+  "term": "counterpart",
+  "english": "counterpart",
+  "definition": "对应物，对应版本。文中常用来比较3R-TMD与其2H对应物（2H counterparts）之间的性质差异。",
+  "category": "通用"
+ },
+ {
+  "term": "nontrivial",
+  "english": "nontrivial",
+  "definition": "非平凡的，不简单的。在数学和物理学中，用来形容某个结果或方法不是显而易见的，需要深入思考或巧妙设计。文中指界面外延策略是一个'非平凡的'创新。",
+  "category": "通用"
+ },
+ {
+  "term": "versatile",
+  "english": "versatile",
+  "definition": "多功能的，通用的。文中指3R-TMD单晶可以作为一个'多功能的'材料平台，用于晶体管、非线性光学器件等多种应用。",
+  "category": "通用"
+ },
+ {
+  "term": "surpass",
+  "english": "surpass",
+  "definition": "超越，超过。文中指界面外延的生长速率超过了传统表面外延，以及器件迁移率超过了IRDS路线图的目标。",
+  "category": "通用"
+ },
+ {
+  "term": "predominantly",
+  "english": "predominantly",
+  "definition": "主要地，占主导地位地。文中指表面外延主要产生2H相而非3R相，因为2H相在能量上略占优势。",
+  "category": "通用"
+ },
+ {
+  "term": "interfacial epitaxy",
+  "english": "interfacial epitaxy",
+  "definition": "界面外延，本文提出的新型外延策略。与传统表面外延（新层在已有层上表面生长）不同，界面外延中新层在金属基底与已有薄膜的界面处成核和生长。这种方法保持了基底对外延的持续导向作用，可实现多层单晶的可控制备。",
+  "category": "专业"
+ },
+ {
+  "term": "3R stacking",
+  "english": "3R stacking (rhombohedral stacking)",
+  "definition": "3R堆叠（菱方堆叠），TMD的一种层状堆叠方式，堆叠顺序为ABCABC...。每一层相对于前一层沿扶手椅方向平移a/√3，三层后回到等效位置。3R相打破了反演对称性，具有铁电性和增强的非线性光学响应。",
+  "category": "专业"
+ },
+ {
+  "term": "difference frequency generation (DFG)",
+  "english": "difference frequency generation",
+  "definition": "差频产生，一种二阶非线性光学过程。两束频率不同的光（泵浦光ωp和信号光ωs）在非线性介质中混合，产生频率为两者之差的新光（ωi = ωp - ωs）。3R-MoS2的大非线性系数使其成为高效的DFG材料。",
+  "category": "专业"
+ },
+ {
+  "term": "quasi-phase matching",
+  "english": "quasi-phase matching",
+  "definition": "准相位匹配，一种增强非线性光学效率的技术。通过将非线性介质分成若干块并在相邻块之间引入π的相位跳变（如旋转60°），使每一块中的非线性信号都相长叠加，从而克服相位失配的限制。",
+  "category": "专业"
+ },
+ {
+  "term": "electron backscatter diffraction (EBSD)",
+  "english": "electron backscatter diffraction",
+  "definition": "电子背散射衍射，一种在扫描电镜中使用的晶体取向表征技术。入射电子在样品中被背散射后形成衍射图案（菊池线），通过分析这些图案可以确定样品各区域的晶体取向，生成取向分布图。",
+  "category": "专业"
+ },
+ {
+  "term": "sliding ferroelectricity",
+  "english": "sliding ferroelectricity",
+  "definition": "滑动铁电性，3R-TMD的一种独特性质。由于菱方堆叠中相邻层的相对平移产生了面外电偶极矩，通过施加外部电场可以使层间发生相对滑动，翻转极化方向。这是一种新型的二维铁电机制。",
+  "category": "专业"
+ },
+ {
+  "term": "metal chalcogenide",
+  "english": "metal chalcogenide",
+  "definition": "金属硫族化合物，由金属元素和硫族元素（S、Se、Te）组成的化合物。在本文中，ZnS被用作硫源，通过断裂表面悬挂键温和地释放硫单体，避免了硫对金属基底的腐蚀。",
+  "category": "专业"
+ },
+ {
+  "term": "coherent",
+  "english": "coherent",
+  "definition": "相干的，在物理学中指波（如电子波函数）保持确定的相位关系。在本文中，'coherent transport'指载流子在输运过程中保持量子力学相位信息，是高质量材料的标志。",
+  "category": "通用"
+ },
+ {
+  "term": "vicinal",
+  "english": "vicinal",
+  "definition": "偏切的，邻近的。在晶体学中，指从主晶面稍微偏切一个小角度的衬底表面。偏切表面形成原子级台阶和台地的周期性结构。",
+  "category": "通用"
+ },
+ {
+  "term": "manifest",
+  "english": "manifest",
+  "definition": "显现，表明。文中指弱局域化效应在磁阻测量中'显现'为一个明显的尖峰。也用作形容词，意为'明显的'。",
+  "category": "通用"
+ },
+ {
+  "term": "culminate",
+  "english": "culminate",
+  "definition": "达到顶点，以...告终。文中指优化生长条件的努力最终'达到'了无位错和点缺陷的最优单晶。",
+  "category": "通用"
+ },
+ {
+  "term": "conceal",
+  "english": "conceal",
+  "definition": "隐藏，掩盖。文中指局部缺陷在常规电子显微镜观察中被'隐藏'，只有通过量子输运测量才能揭示。",
+  "category": "通用"
+ },
+ {
+  "term": "suppress",
+  "english": "suppress",
+  "definition": "抑制，消除。文中指通过优化生长条件来'抑制'位错核和点缺陷的形成。在实验物理中常用此词描述消除某种不想要的效应。",
+  "category": "通用"
+ },
+ {
+  "term": "weak localization",
+  "english": "weak localization",
+  "definition": "弱局域化，二维系统中量子干涉效应导致的低场负磁阻现象。在零磁场下，时间反演对称路径的相长干涉增加了电子回到起点的概率，宏观表现为电阻增大。弱局域化的出现是样品具有量子级质量的标志。",
+  "category": "专业"
+ },
+ {
+  "term": "Shubnikov-de Haas oscillation",
+  "english": "Shubnikov-de Haas oscillation",
+  "definition": "舒布尼科夫-德哈斯振荡，强磁场中二维电子系统电阻随磁场周期性变化的量子现象。源于朗道能级的量子化——当朗道能级依次通过费米能级时，态密度周期性变化导致电阻振荡。SdH振荡的出现要求μB > 1。",
+  "category": "专业"
+ },
+ {
+  "term": "mirror-twin boundary",
+  "english": "mirror-twin boundary",
+  "definition": "镜像孪晶界，两个以镜面为对称面相互关联的晶粒之间的界面。在c面蓝宝石上生长的MoS2中，两种60°旋转的畴合并形成镜像孪晶界。消除镜像孪晶界是实现真正单晶的关键。",
+  "category": "专业"
+ },
+ {
+  "term": "Hikami-Larkin-Nagaoka (HLN) model",
+  "english": "Hikami-Larkin-Nagaoka model",
+  "definition": "HLN模型，描述二维弱局域化磁导修正的理论框架。通过拟合低场磁导数据可以提取相位相干长度Lφ。公式中包含双伽马函数Ψ和特征磁场Bφ两个关键参数。",
+  "category": "专业"
+ },
+ {
+  "term": "metal-organic CVD (MOCVD)",
+  "english": "metal-organic chemical vapor deposition",
+  "definition": "金属有机化学气相沉积，使用金属有机化合物作为前驱体的CVD技术。在本文中，Mo(CO)6和(C2H5)2S分别作为Mo源和S源。MOCVD是半导体工业中最成熟的外延技术之一，具有精确控制前驱体流量的优势。",
+  "category": "专业"
+ },
+ {
+  "term": "phase coherence length",
+  "english": "phase coherence length (Lφ)",
+  "definition": "相位相干长度，描述载流子在失去量子相位记忆之前能传播的平均距离。Lφ越大，说明样品中的散射缺陷越少，量子质量越高。在本文中，Lφ ≈ 90 nm（T = 1.5 K）。",
+  "category": "专业"
+ },
+ {
+  "term": "angle-resolved photoemission spectroscopy (ARPES)",
+  "english": "angle-resolved photoemission spectroscopy",
+  "definition": "角分辨光电子能谱，一种直接测量材料电子能带结构E(k)的实验技术。利用光电效应，通过测量出射光电子的动能和角度，反推电子在固体中的能量和动量。在本文中用于验证外延MoS2的能带结构和单晶性。",
+  "category": "专业"
+ },
+ {
+  "term": "鲁棒性",
+  "english": "robustness",
+  "definition": "指系统或方法在面对变化条件时仍能保持性能的能力。在材料生长中，鲁棒性意味着工艺窗口宽，对参数波动不敏感，易于重复和放大。一个鲁棒的方法不会因为微小的条件变化就失效。",
+  "category": "通用"
+ },
+ {
+  "term": "外延",
+  "english": "epitaxy",
+  "definition": "在单晶衬底上生长取向一致的薄膜的技术。'epi'意为'之上'，'taxis'意为'排列'。外延薄膜的晶体结构与衬底有确定的取向关系。根据衬底和薄膜之间相互作用的强弱，可分为共格外延和范德华外延。",
+  "category": "通用"
+ },
+ {
+  "term": "简并",
+  "english": "degeneracy",
+  "definition": "在物理学中，指不同的量子态具有相同的能量。打破简并（degeneracy breaking）是让系统从多个等价状态中选择一个的过程。在晶体生长中，简并意味着多个取向在能量上等价，导致多畴或晶界。",
+  "category": "通用"
+ },
+ {
+  "term": "前驱体",
+  "english": "precursor",
+  "definition": "化学反应中用于生成目标产物的起始物质。在CVD/MOCVD中，前驱体是气相中输运的原料，通过化学反应在衬底表面沉积成薄膜。前驱体的选择直接影响薄膜的纯度、生长速率和质量。",
+  "category": "通用"
+ },
+ {
+  "term": "迁移率",
+  "english": "mobility",
+  "definition": "载流子（电子或空穴）在电场作用下的运动速度与电场强度的比值，单位是cm²/(V·s)。迁移率越高，材料的导电性能越好，是衡量半导体质量的关键指标。对于二维材料，室温迁移率受散射机制（声子、缺陷、杂质）限制。",
+  "category": "通用"
+ },
+ {
+  "term": "单晶",
+  "english": "single crystal",
+  "definition": "整个材料具有完全一致的晶体取向，没有晶界。与多晶（polycrystal）相对。单晶材料通常具有最优的电学、光学和力学性能，因为没有晶界散射载流子和光子。制备大尺寸单晶是半导体工业的核心目标之一。",
+  "category": "通用"
+ },
+ {
+  "term": "晶圆",
+  "english": "wafer",
+  "definition": "半导体工业中使用的圆形薄片，通常由硅、蓝宝石等材料制成。晶圆尺寸是衡量产业化能力的重要指标，常见的有150 mm（6英寸）、200 mm（8英寸）、300 mm（12英寸）。更大的晶圆意味着更高的产能和更低的单芯片成本。",
+  "category": "通用"
+ },
+ {
+  "term": "对称性破缺",
+  "english": "symmetry breaking",
+  "definition": "原本具有较高对称性的系统，由于某种扰动或约束，对称性降低的现象。在物理学中极为常见，如铁磁体自发选择磁化方向打破了旋转对称性。本文通过La原子层降低蓝宝石表面对称性，是人工设计的对称性破缺。",
+  "category": "通用"
+ },
+ {
+  "term": "蓝宝石",
+  "english": "sapphire (Al2O3)",
+  "definition": "α-氧化铝的单晶形式，是TMDC生长中最常用的衬底材料。c面蓝宝石Al2O3(0001)具有六方对称性，与TMDC的晶格结构匹配良好。优点是成本低、尺寸大（可扩至300 mm）、热稳定性好、表面易于制备原子级台阶。",
+  "category": "专业"
+ },
+ {
+  "term": "镧",
+  "english": "lanthanum (La)",
+  "definition": "稀土元素，原子序数57。在本文中，La以单原子层形式钝化蓝宝石表面，替代表面的Al位点。La的原子半径比Al大约30%，导致表面氧重构，降低对称性从P3到P1。La2O3与Al2O3共享六方密排氧亚晶格，这是La能稳定存在于蓝宝石表面的结构基础。",
+  "category": "专业"
+ },
+ {
+  "term": "二次谐波产生",
+  "english": "second harmonic generation (SHG)",
+  "definition": "一种非线性光学效应，当强激光照射非中心对称材料时，会产生频率为入射光两倍的光。SHG对晶体对称性极其敏感：中心对称结构中SHG信号为零，只有非中心对称结构才有信号。是表征二维材料单晶性和取向的有力工具，本文中SHG六角花瓣图案的取向一致性证明了晶圆级单晶性。",
+  "category": "专业"
+ },
+ {
+  "term": "场效应晶体管",
+  "english": "field-effect transistor (FET)",
+  "definition": "利用电场控制电流的三端器件。包括源极、漏极和栅极。栅极电压调制沟道材料的载流子浓度，从而控制源漏电流。是集成电路的基本构建单元。本文中用背栅FET结构表征了TMDC的载流子迁移率、开关比和亚阈值摆幅等关键参数。",
+  "category": "专业"
+ },
+ {
+  "term": "高角度环形暗场扫描透射电子显微镜",
+  "english": "HAADF-STEM",
+  "definition": "一种高分辨电子显微技术，通过探测大角度散射电子来成像。图像亮度与原子序数的平方（Z²）成正比，因此可以清晰分辨不同元素（Z衬度成像）。是表征材料原子结构界面的金标准。本文中用HAADF-STEM直接观察了La原子在蓝宝石表面的排列和层间距变化。",
+  "category": "专业"
+ },
+ {
+  "term": "X射线光电子能谱",
+  "english": "X-ray photoelectron spectroscopy (XPS)",
+  "definition": "利用X射线激发材料表面的光电子，通过测量光电子的动能来确定元素的种类和化学态。每种元素有特征的结合能峰位，化学环境的变化会导致峰位偏移（化学位移）。本文中XPS证实La以+3氧化态存在于蓝宝石表面，而非金属态或其他价态。",
+  "category": "专业"
+ },
+ {
+  "term": "竞争机制",
+  "english": "competition mechanism",
+  "definition": "两种或多种物理效应相互对抗，最终结果取决于哪种效应占主导。在本文中，变形能代价与吸附能收益的竞争决定了MoS2是跟随台阶还是跨越台阶生长。",
+  "category": "通用"
+ },
+ {
+  "term": "临界条件",
+  "english": "critical condition",
+  "definition": "系统行为发生质变的边界条件。在本文中，临界台阶角θc ≈ 42°是跨台阶生长与跟随台阶生长的分界点。超过这个角度，跨台阶生长在能量上更有利。",
+  "category": "通用"
+ },
+ {
+  "term": "悬空",
+  "english": "freestanding / suspended",
+  "definition": "材料的一部分不与任何衬底接触，像桥一样架在两个支撑点之间。悬空区域的二维材料不受衬底影响，本征性质得以保留，但也更容易受到外力变形。",
+  "category": "通用"
+ },
+ {
+  "term": "波纹",
+  "english": "ripple",
+  "definition": "材料表面形成的周期性起伏结构。类似水面上的波纹。在二维材料中，波纹可以通过应变改变局部能带结构，是一种调控材料性能的手段。",
+  "category": "通用"
+ },
+ {
+  "term": "范式",
+  "english": "paradigm",
+  "definition": "科学理论或研究方法的基本框架和模式。当旧范式无法解释新现象时，就会发生范式转变（paradigm shift）。本文提出的跨台阶生长打破了传统薄膜外延的范式，开创了新的研究方向。",
+  "category": "通用"
+ },
+ {
+  "term": "跨台阶生长",
+  "english": "cross-step growth",
+  "definition": "二维材料在生长过程中跨越衬底表面台阶的现象。与传统薄膜生长中材料跟随台阶形貌不同，跨台阶生长中材料以悬空方式桥接相邻台阶。本文首次报道了单层MoS2能跨越高达10 nm的台阶。",
+  "category": "专业"
+ },
+ {
+  "term": "Ehrlich-Schwoebel势垒",
+  "english": "Ehrlich-Schwoebel barrier",
+  "definition": "吸附原子在台阶边缘向下扩散时需要克服的额外能量势垒。以发现者G. Ehrlich和F. Schwoebel命名。ES势垒是导致薄膜表面粗糙化和台阶处生长终止的根本原因。",
+  "category": "专业"
+ },
+ {
+  "term": "变形能",
+  "english": "deformation energy",
+  "definition": "材料因弯曲、拉伸等形变而储存的弹性能量。对于二维材料，变形能与弯曲曲率的平方和弯曲刚度成正比。单层MoS2的弯曲刚度约为1-4 eV，远小于三维薄膜。",
+  "category": "专业"
+ },
+ {
+  "term": "吸附能",
+  "english": "adsorption energy",
+  "definition": "原子或分子吸附在表面上时释放的能量。吸附能越大，吸附越稳定。在本文中，MoS2与蓝宝石台阶表面的范德华相互作用提供了吸附能收益，是驱动跟随台阶生长的动力。",
+  "category": "专业"
+ },
+ {
+  "term": "氧辅助化学气相沉积",
+  "english": "oxygen-assisted chemical vapor deposition",
+  "definition": "在CVD生长过程中引入氧气作为辅助气体，加速前驱体的反应动力学。氧气可以将金属前驱体氧化为更高活性的氧化物中间体，从而提高生长速率（可达10倍）和薄膜质量。",
+  "category": "专业"
+ },
+ {
+  "term": "热释放胶带",
+  "english": "thermal release tape (TRT)",
+  "definition": "一种在加热后粘性降低的胶带，用于二维材料的干法转移。将TRT贴附在生长好的衬底上，加热后TRT带着二维材料剥离，然后再将TRT贴到目标衬底上，再次加热去除TRT，完成转移。",
+  "category": "专业"
+ },
+ {
+  "term": "点群",
+  "english": "point group",
+  "definition": "描述晶体宏观对称性的数学群。包含所有保持至少一个点不动的对称操作（旋转、镜像、反演等）。二维材料MoS2的点群为D3h，包含12个对称操作。对称性降低会导致物理性质的各向异性。",
+  "category": "专业"
+ },
+ {
+  "term": "弯曲刚度",
+  "english": "bending rigidity",
+  "definition": "材料抵抗弯曲变形的能力，定义为使材料弯曲到单位曲率所需的力矩。对于二维材料，弯曲刚度通常在1-10 eV量级。弯曲刚度越小，材料越容易弯曲以适应衬底形貌。",
+  "category": "专业"
+ },
+ {
+  "term": "偏振分辨Raman光谱",
+  "english": "polarization-resolved Raman spectroscopy",
+  "definition": "通过改变激发光和散射光的偏振方向来测量Raman信号各向异性的技术。不同对称性的声子模式对不同偏振配置的响应不同，因此可以用来确定晶体的点群对称性和应变状态。",
+  "category": "专业"
+ },
+ {
+  "term": "动力学",
+  "english": "kinetics",
+  "definition": "研究化学反应速率和机理的学科分支。与热力学（研究反应方向和平衡）相对。动力学关注的是'反应有多快'和'反应经过什么路径'。在薄膜生长中，动力学决定了生长速率、晶畴尺寸和薄膜质量。",
+  "category": "通用"
+ },
+ {
+  "term": "能垒",
+  "english": "energy barrier",
+  "definition": "化学反应中，反应物转变为产物需要克服的最大能量差。类比于翻越一座山：能垒就是山顶与山脚的高度差。能垒越高，反应越慢。温度升高可以提供更多热能来帮助克服能垒。",
+  "category": "通用"
+ },
+ {
+  "term": "中间体",
+  "english": "intermediate",
+  "definition": "化学反应过程中短暂存在、介于反应物和产物之间的物质。中间体通常活性很高，寿命很短。在oxy-MOCVD中，MoO3就是关键的中间体，它比Mo(CO)6更活泼，更容易与硫反应。",
+  "category": "通用"
+ },
+ {
+  "term": "蒸气压",
+  "english": "vapor pressure",
+  "definition": "在一定温度下，物质的气相与其凝聚相（液相或固相）达到平衡时气相的压力。蒸气压越高，物质越容易挥发。MoO3的蒸气压远高于零价Mo，这是oxy-MOCVD能实现快速生长的原因之一。",
+  "category": "通用"
+ },
+ {
+  "term": "污染",
+  "english": "contamination",
+  "definition": "材料中混入的非预期杂质。在半导体制造中，污染是良率和性能的大敌。本文中碳污染是传统MOCVD的主要缺点，oxy-MOCVD通过氧化反应消除了碳残留。",
+  "category": "通用"
+ },
+ {
+  "term": "可扩展性",
+  "english": "scalability",
+  "definition": "技术从小规模实验放大到工业生产的能力。可扩展性好的技术，在放大过程中性能不会显著下降。oxy-MOCVD兼容现有MOCVD设备，具有良好的可扩展性，已成功制备150 mm晶圆。",
+  "category": "通用"
+ },
+ {
+  "term": "瓶颈",
+  "english": "bottleneck",
+  "definition": "限制整体性能或效率的关键环节。就像瓶子的颈部限制了液体流出的速度。在技术发展中，识别瓶颈是解决问题的第一步。本文识别了MOCVD生长MoS2的动力学瓶颈。",
+  "category": "通用"
+ },
+ {
+  "term": "金属有机化学气相沉积",
+  "english": "metal-organic chemical vapor deposition (MOCVD)",
+  "definition": "使用金属有机化合物作为前驱体的CVD技术。金属有机前驱体具有适中的蒸气压和反应活性，可以通过调节气泡器温度精确控制流量。MOCVD是工业化生长III-V族半导体和TMDC薄膜的主流技术。",
+  "category": "专业"
+ },
+ {
+  "term": "六羰基钼",
+  "english": "molybdenum hexacarbonyl, Mo(CO)6",
+  "definition": "钼的零价羰基配合物，是MOCVD中最常用的钼源。常温下为白色晶体，加热后升华并在气相中分解。Mo(CO)6在约150°C开始分解为Mo(CO)3和CO，后者是高活性的中间体。",
+  "category": "专业"
+ },
+ {
+  "term": "二硫化碳",
+  "english": "carbon disulfide, CS2",
+  "definition": "一种含硫有机化合物，常温下为无色挥发性液体。在MOCVD中用作硫源，替代传统的H2S气体。CS2的优点是毒性较低、蒸气压适中、不含氢（避免了氢化物的高活化能垒）。缺点是可能引入碳污染。",
+  "category": "专业"
+ },
+ {
+  "term": "三氧化钼",
+  "english": "molybdenum trioxide, MoO3",
+  "definition": "钼的最高价氧化物，在oxy-MOCVD中作为关键中间体。MoO3具有高蒸气压和高表面活性，能快速与硫反应生成MoS2。与零价Mo相比，MoO3的反应活性高出数个数量级。",
+  "category": "专业"
+ },
+ {
+  "term": "从头算分子动力学",
+  "english": "ab initio molecular dynamics (AIMD)",
+  "definition": "结合密度泛函理论（DFT）和分子动力学（MD）的计算方法。原子间作用力由DFT实时计算（而非经验势），因此能精确描述化学反应过程。AIMD的计算量远大于经典MD，但能模拟键的断裂和形成。",
+  "category": "专业"
+ },
+ {
+  "term": "晶畴尺寸",
+  "english": "domain size",
+  "definition": "薄膜中单个晶粒（单晶区域）的平均尺寸。晶畴尺寸越大，晶界密度越低，薄膜质量越好。传统MOCVD的MoS2晶畴尺寸通常只有10-100 nm，而oxy-MOCVD可以达到100-500 μm。",
+  "category": "专业"
+ },
+ {
+  "term": "载流子迁移率",
+  "english": "carrier mobility",
+  "definition": "载流子（电子或空穴）在单位电场下的漂移速度，单位cm²/(V·s)。迁移率是衡量半导体材料电学质量的核心指标，受散射机制（声子、缺陷、杂质、晶界）限制。本文oxy-MOCVD生长的MoS2迁移率达122.9 cm²/(V·s)。",
+  "category": "专业"
+ },
+ {
+  "term": "速率决定步骤",
+  "english": "rate-limiting step",
+  "definition": "多步反应中活化能最高、速率最慢的那一步。总反应速率由速率决定步骤控制，就像链条的强度取决于最弱的一环。在传统MOCVD中，H2S的硫化步骤是速率决定步骤（能垒2.02 eV）。",
+  "category": "专业"
+ },
+ {
+  "term": "暗场透射电子显微镜",
+  "english": "dark-field transmission electron microscopy (DF-TEM)",
+  "definition": "一种TEM成像模式，只收集特定衍射束成像。对于多晶薄膜，不同取向的晶粒会产生不同的衍射斑点，暗场像中只有满足衍射条件的区域才亮。均匀的暗场衬度和单一衍射斑点证实了单晶性。",
+  "category": "专业"
+ },
+ {
+  "term": "欧姆接触",
+  "english": "ohmic contact",
+  "definition": "金属与半导体之间的接触，其电流-电压关系呈线性（符合欧姆定律），没有整流效应。欧姆接触的电阻很小，不会限制器件性能。与之相对的是肖特基接触（具有整流特性）。",
+  "category": "通用"
+ },
+ {
+  "term": "肖特基势垒",
+  "english": "Schottky barrier",
+  "definition": "金属-半导体界面处由于功函数差异形成的能量势垒。肖特基势垒阻碍载流子的注入和抽取，是限制器件性能的关键因素。势垒高度取决于金属功函数和半导体电子亲和能。",
+  "category": "通用"
+ },
+ {
+  "term": "功函数",
+  "english": "work function",
+  "definition": "将电子从材料内部移到真空能级所需的最小能量。功函数越大，电子越难逸出。金属-半导体接触中，两者功函数的差异决定了电荷转移的方向和势垒的高度。",
+  "category": "通用"
+ },
+ {
+  "term": "钉扎",
+  "english": "pinning",
+  "definition": "费米能级被界面态固定在某个能量位置，不再随外部条件变化的现象。费米能级钉扎是金属-半导体接触中肖特基势垒难以调控的根本原因。打破钉扎是实现欧姆接触的关键。",
+  "category": "通用"
+ },
+ {
+  "term": "欧姆",
+  "english": "ohmic",
+  "definition": "电流与电压成正比的（线性I-V关系）。欧姆接触是理想的金属-半导体接触，没有整流效应，接触电阻极小。与之相对的是肖特基接触（非线性I-V，有整流效应）。",
+  "category": "通用"
+ },
+ {
+  "term": "金属诱导能隙态",
+  "english": "metal-induced gap states (MIGS)",
+  "definition": "金属-半导体界面处，金属电子波函数穿透到半导体带隙中形成的共振态。MIGS是费米能级钉扎的物理根源。MIGS的密度随深入半导体的距离指数衰减，特征长度约0.1-0.5 nm。",
+  "category": "专业"
+ },
+ {
+  "term": "半金属",
+  "english": "semimetal",
+  "definition": "一类导带底和价带顶有微小重叠的材料，费米能级处的态密度极低。典型例子包括Bi、Sb和石墨。半金属的独特电子结构使其在抑制MIGS方面具有天然优势。",
+  "category": "专业"
+ },
+ {
+  "term": "铋",
+  "english": "bismuth (Bi)",
+  "definition": "原子序数83的重金属元素，具有半金属性质。功函数约5.87 eV，费米能级处DOS极低。在本文中用作接触电极，实现了对MoS2、WS2、WSe2的欧姆接触。Bi还具有低熔点（271°C），易于沉积。",
+  "category": "专业"
+ },
+ {
+  "term": "能隙态饱和",
+  "english": "gap-state saturation (GSS)",
+  "definition": "当MIGS数量极少且可以被完全填充时，费米能级钉扎效应消失的现象。GSS是本文提出的核心机制，通过半金属接触实现。饱和后的MIGS不再限制费米能级，半导体进入简并态。",
+  "category": "专业"
+ },
+ {
+  "term": "接触电阻",
+  "english": "contact resistance",
+  "definition": "金属-半导体界面处的附加电阻，单位通常为Ω·μm（归一化到接触宽度）。接触电阻是限制器件性能的关键参数。本文实现的123 Ω·μm是单层TMDC器件中的最低纪录。",
+  "category": "专业"
+ },
+ {
+  "term": "传输线模型",
+  "english": "transfer length method (TLM)",
+  "definition": "提取金属-半导体接触电阻的标准实验方法。通过制作不同间距的电极对，测量总电阻随间距的线性关系，分离出接触电阻和薄层电阻。TLM是半导体器件表征的基本工具。",
+  "category": "专业"
+ },
+ {
+  "term": "分支点",
+  "english": "branching point",
+  "definition": "MIGS中施主型态（价带贡献）和受主型态（导带贡献）的分界能量。费米能级倾向于被钉扎在分支点附近。分支点的位置由金属和半导体的电子结构共同决定。",
+  "category": "专业"
+ },
+ {
+  "term": "开态电流密度",
+  "english": "on-state current density",
+  "definition": "晶体管在在开态下单位沟道宽度的电流，单位μA/μm。开态电流密度越高，器件的驱动能力越强。本文实现的1135 μA/μm是单层MoS2晶体管中的最高纪录，可与先进硅基器件媲美。",
+  "category": "专业"
+ },
+ {
+  "term": "选区电子衍射",
+  "english": "selected-area electron diffraction (SAED)",
+  "definition": "TEM中通过选择特定区域的衍射束来分析晶体结构的技术。SAED图案直接反映晶体的倒易空间结构，可以确定晶相、取向和界面关系。本文中SAED证实了Bi(0001)//MoS2平面平行关系。",
+  "category": "专业"
+ },
+ {
+  "term": "转移",
+  "english": "transfer",
+  "definition": "将二维材料从生长衬底移动到目标衬底的过程。转移是二维材料应用中的关键步骤，因为生长衬底往往不适合器件制造。理想的转移应该无损、清洁、快速且可放大。",
+  "category": "通用"
+ },
+ {
+  "term": "排斥力",
+  "english": "repulsion force",
+  "definition": "使两个物体相互远离的力。在本文中，排斥力来源于两个带同种电荷表面之间的电双层相互作用。排斥力必须大于范德华吸引力才能实现剥离。",
+  "category": "通用"
+ },
+ {
+  "term": "良率",
+  "english": "yield",
+  "definition": "正常工作的器件占总器件数的百分比。良率是衡量工艺可靠性的核心指标。在半导体工业中，良率直接决定了生产成本和商业可行性。本文实现了100%的器件良率。",
+  "category": "通用"
+ },
+ {
+  "term": "磁滞",
+  "english": "hysteresis",
+  "definition": "系统在输入信号上升和下降过程中输出不一致的现象。在晶体管中，磁滞表现为正向扫描和反向扫描的转移曲线不重合。磁滞的大小反映了界面陷阱态的密度。",
+  "category": "通用"
+ },
+ {
+  "term": "兼容性",
+  "english": "compatibility",
+  "definition": "两种工艺或材料能够共同使用而不产生有害影响的能力。CMOS兼容性意味着该技术可以在不改变现有半导体制造流程的情况下集成。氨水的CMOS兼容性是EDL转移的重要优势。",
+  "category": "通用"
+ },
+ {
+  "term": "通用性",
+  "english": "versatility",
+  "definition": "一种方法适用于多种不同情况的能力。EDL转移的通用性体现在它适用于各种二维材料（TMDC、石墨烯、hBN、CNT）和各种衬底（SiO2、蓝宝石、SrTiO3、铜等）的组合。",
+  "category": "通用"
+ },
+ {
+  "term": "电双层",
+  "english": "electric double layer (EDL)",
+  "definition": "固体-液体界面处由表面电荷和溶液中反离子组成的双层电荷结构。包括紧密层（Stern layer）和扩散层（diffuse layer）。EDL的厚度由德拜长度决定，在低离子浓度溶液中可达数百纳米。",
+  "category": "专业"
+ },
+ {
+  "term": "zeta电位",
+  "english": "zeta potential",
+  "definition": "电双层滑动面处的电势，反映固体表面带电的强弱和符号。zeta电位为负表示表面带负电。绝对值越大，胶体分散越稳定。可通过电泳光散射技术测量。",
+  "category": "专业"
+ },
+ {
+  "term": "德拜长度",
+  "english": "Debye length",
+  "definition": "电双层扩散层的特征厚度，表示表面电势衰减到1/e的距离。德拜长度与溶液中离子浓度的平方根成反比。在纯水中约1 μm，在生理盐水中约0.8 nm。德拜长度越长，EDL排斥力作用范围越大。",
+  "category": "专业"
+ },
+ {
+  "term": "DLVO理论",
+  "english": "DLVO theory",
+  "definition": "描述胶体稳定性的经典理论，由Derjaguin-Landau-Verwey-Overbeek四人名字首字母组成。理论认为胶体粒子间的总作用力 = 范德华吸引力 + 电双层排斥力。通过调节pH和离子浓度可以控制分散-聚沉转变。",
+  "category": "专业"
+ },
+ {
+  "term": "Poisson-Boltzmann方程",
+  "english": "Poisson-Boltzmann equation",
+  "definition": "描述电解质溶液中电势空间分布的基本方程。结合Poisson方程（电荷-电势关系）和Boltzmann分布（离子在电势场中的统计分布）。是计算EDL结构和排斥力的理论基础。",
+  "category": "专业"
+ },
+ {
+  "term": "亚阈值摆幅",
+  "english": "subthreshold swing (SS)",
+  "definition": "晶体管亚阈值区中栅极电压变化一个数量级电流所需的电压变化量，单位mV/dec。室温热力学极限为60 mV/dec。SS越小说明开关特性越陡峭，界面质量越好。本文实现65.9 mV/dec，接近理论极限。",
+  "category": "专业"
+ },
+ {
+  "term": "渗透压",
+  "english": "osmotic pressure",
+  "definition": "半透膜两侧溶液浓度差产生的压力。在EDL排斥中，两个带电表面间的高离子浓度区与体相低浓度区之间的渗透压差，产生了将两个表面推开的力。渗透压Π = Δc·kBT。",
+  "category": "专业"
+ }
+]
